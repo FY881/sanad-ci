@@ -161,20 +161,29 @@ def explore(pkg, act, name):
 def main():
     global OUT, W, H
     ap = argparse.ArgumentParser(); ap.add_argument("--screens"); ap.add_argument("--out", default="shots"); ap.add_argument("--deeplink", default="0")
+    ap.add_argument("--shard", type=int, default=0); ap.add_argument("--shards", type=int, default=1); ap.add_argument("--only", default="")
     a = ap.parse_args(); OUT = a.out; os.makedirs(OUT, exist_ok=True); W, H = screen_h()
     deep = a.deeplink == "1"
-    done = set(); ok = 0; total = 0
+    done = set(); ok = 0; total = 0; idx = -1
     for line in open(a.screens, encoding="utf-8"):
         line = line.strip()
         if not line or line.startswith("#"): continue
+        idx += 1
+        if a.shards > 1 and idx % a.shards != a.shard: continue
+        if a.only and not re.search(a.only, line.split("|")[3] if line.count("|") >= 3 else line): continue
         f = (line.split("|") + ["", "", "", "", ""])[:5]
         pkg, act, extras, name, taps = [x.strip() for x in f]
         if pkg not in adb("pm list packages"): print(f"SKIP {name}: {pkg} not installed"); continue
         total += 1; print(f"== {name}")
         try:
-            if pkg not in done: onboard(pkg, act); done.add(pkg)
+            ci_skip = deep and "--es ci 1" in extras  # the CI build skips onboarding / admin intro itself
+            if pkg not in done and not ci_skip: onboard(pkg, act)
+            done.add(pkg)
             if deep and extras:
-                launch(pkg, act, extras, 6); capture(name, True); ok += 1; continue
+                launch(pkg, act, extras, 9 if pkg == "com.sanad.admin" else 6)
+                fp = focused_pkg()
+                if fp and fp != pkg: print(f"  WARN focus is {fp} after launch"); shot(name + "_FOCUS_" + fp.split('.')[-1]); adb("input keyevent KEYCODE_BACK"); time.sleep(1)
+                capture(name, True); ok += 1; continue
             launch(pkg, act, "", 6)
             if focused_pkg() not in (pkg, ""): back()
             if taps == "*": shot(name); explore(pkg, act, name); ok += 1; continue
