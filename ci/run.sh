@@ -45,7 +45,7 @@ for pkg in com.sanad.app com.sanad.admin; do
   adb shell cmd deviceidle whitelist +$pkg 2>/dev/null || true
 done
 
-python3 ci/walk.py --screens ci/screens.txt --out "$OUT" --deeplink "${DEEPLINK:-0}" || echo "walk.py exited $?"
+python3 ci/walk.py --screens ci/screens.txt --out "$OUT" --deeplink "${DEEPLINK:-0}" --shard "${SHARD:-0}" --shards "${SHARDS:-1}" --only "${ONLY:-}" || echo "walk.py exited $?"
 
 # Crashes: crash buffer + fatal/ANR lines from main log
 {
