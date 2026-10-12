@@ -1,0 +1,92 @@
+name: Sanad screenshots
+
+# Real in-app screenshots of Sanad + Sanad Admin on an x86_64 API 34 emulator.
+# Triggers: manual dispatch, or a push that changes apks/** (new APKs).
+# Output: artifact "shots" (PNGs + crashes.txt + logs) and the same files force-pushed to branch "shots".
+# Nothing here publishes anything.
+
+on:
+  workflow_dispatch:
+    inputs:
+      deeplink:
+        description: 'Use the app''s --es screen <id> extra instead of tapping (needs the screen hook in MainActivity)'
+        type: boolean
+        default: false
+  push:
+    paths:
+      - 'apks/**'
+
+concurrency:
+  group: shots
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  shots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/.ghcup /usr/share/swift /usr/local/share/powershell /opt/hostedtoolcache/CodeQL || true
+          df -h /
+
+      - uses: actions/checkout@v4
+
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+          ls -la /dev/kvm
+
+      - name: Run emulator, install, walk screens
+        id: emu
+        continue-on-error: true
+        uses: reactivecircus/android-emulator-runner@v2
+        env:
+          DEEPLINK: ${{ github.event_name == 'workflow_dispatch' && inputs.deeplink && '1' || '0' }}
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          ram-size: 4096M
+          disk-size: 6000M
+          cores: 4
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -change-locale ar-EG
+          script: bash ci/run.sh
+
+      - name: Status
+        if: always()
+        run: |
+          mkdir -p shots
+          echo "emulator step: ${{ steps.emu.outcome }}" > shots/status.txt
+          echo "commit: ${{ github.sha }}  run: ${{ github.run_id }}" >> shots/status.txt
+          ls -la shots
+
+      - name: Upload artifact "shots"
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shots
+          retention-days: 7
+          path: shots/
+
+      - name: Push screenshots to branch "shots"
+        if: always()
+        run: |
+          [ -d shots ] || exit 0
+          cd shots
+          git init -q -b shots
+          git config user.name "sanad-ci"; git config user.email "sanad-ci@users.noreply.github.com"
+          git add -A
+          git commit -qm "shots from ${{ github.sha }} (run ${{ github.run_id }})" || exit 0
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" shots
+
+      - name: Fail if emulator step failed
+        if: steps.emu.outcome != 'success'
+        run: exit 1
