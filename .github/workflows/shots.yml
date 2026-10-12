@@ -1,7 +1,7 @@
 name: Sanad screenshots
 
 # Real in-app screenshots of Sanad + Sanad Admin on an x86_64 API 34 emulator.
-# Triggers: manual dispatch, or a push that changes apks/** (new APKs).
+# Trigger: manual dispatch only (uploading APKs no longer auto-runs). 4 parallel shards, one emulator each.
 # Output: artifact "shots" (PNGs + crashes.txt + logs) and the same files force-pushed to branch "shots".
 # Nothing here publishes anything.
 
@@ -12,9 +12,10 @@ on:
         description: 'Use the app''s --es screen <id> extra instead of tapping (needs the screen hook in MainActivity)'
         type: boolean
         default: false
-  push:
-    paths:
-      - 'apks/**'
+      only:
+        description: 'Optional regex: capture only screens.txt lines whose name matches (rerun of a few screens)'
+        type: string
+        default: ''
 
 concurrency:
   group: shots
@@ -26,7 +27,11 @@ permissions:
 jobs:
   shots:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 55
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3]
     steps:
       - name: Free disk space
         run: |
@@ -47,7 +52,10 @@ jobs:
         continue-on-error: true
         uses: reactivecircus/android-emulator-runner@v2
         env:
-          DEEPLINK: ${{ github.event_name == 'workflow_dispatch' && inputs.deeplink && '1' || '0' }}
+          DEEPLINK: ${{ inputs.deeplink && '1' || '0' }}
+          SHARD: ${{ matrix.shard }}
+          SHARDS: 4
+          ONLY: ${{ inputs.only }}
         with:
           api-level: 34
           target: google_apis
@@ -64,7 +72,7 @@ jobs:
         if: always()
         run: |
           mkdir -p shots
-          echo "emulator step: ${{ steps.emu.outcome }}" > shots/status.txt
+          echo "emulator step: ${{ steps.emu.outcome }} shard ${{ matrix.shard }}" > shots/status.txt
           echo "commit: ${{ github.sha }}  run: ${{ github.run_id }}" >> shots/status.txt
           ls -la shots
 
@@ -72,7 +80,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shots
+          name: shots-${{ matrix.shard }}
           retention-days: 7
           path: shots/
 
@@ -85,7 +93,7 @@ jobs:
           git config user.name "sanad-ci"; git config user.email "sanad-ci@users.noreply.github.com"
           git add -A
           git commit -qm "shots from ${{ github.sha }} (run ${{ github.run_id }})" || exit 0
-          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" shots
+          git push -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" shots:shots-${{ matrix.shard }}
 
       - name: Fail if emulator step failed
         if: steps.emu.outcome != 'success'
