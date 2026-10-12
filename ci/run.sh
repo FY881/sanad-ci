@@ -4,6 +4,14 @@ set -u
 OUT=shots; mkdir -p "$OUT"
 LOG="$OUT/run.log"; exec > >(tee -a "$LOG") 2>&1
 adb wait-for-device
+# -change-locale makes the emulator soft-restart the framework (setprop ctl.restart zygote) shortly after boot.
+# Wait for that restart to happen and settle before installing anything.
+ready() { [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ] && adb shell pm path android 2>/dev/null | grep -q package: ; }
+sleep 40
+for i in $(seq 1 60); do ready && break; sleep 3; done
+Z1=$(adb shell pidof system_server | tr -d '\r'); sleep 15; Z2=$(adb shell pidof system_server | tr -d '\r')
+echo "system_server pid $Z1 -> $Z2"; for i in $(seq 1 60); do ready && break; sleep 3; done
+adb shell getprop persist.sys.locale
 adb shell getprop ro.product.cpu.abilist
 adb shell settings put global window_animation_scale 0
 adb shell settings put global transition_animation_scale 0
@@ -17,8 +25,12 @@ adb logcat -b crash -c || true
 
 install() { # $1 apk
   [ -f "$1" ] || { echo "MISSING $1"; return 1; }
-  adb install -r -g "$1" && return 0
-  echo "plain install failed, retrying with --abi arm64-v8a (ARM translation)"
+  for t in 1 2 3; do
+    for i in $(seq 1 40); do ready && break; sleep 3; done
+    adb install -r -g "$1" && return 0
+    echo "install try $t failed"; sleep 10
+  done
+  echo "retrying with --abi arm64-v8a (ARM translation)"
   adb install -r -g --abi arm64-v8a "$1"
 }
 install apks/sanad.apk || echo "INSTALL FAILED sanad.apk"
