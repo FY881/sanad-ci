@@ -1,0 +1,398 @@
+system_server pid 2641 -> 2641
+ar-EG
+x86_64,arm64-v8a
+Performing Streamed Install
+Success
+Performing Streamed Install
+Success
+package:com.sanad.app
+package:com.sanad.admin
+Added: com.sanad.app
+Added: com.sanad.admin
+== 01_home
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 4716
+WaitTime: 4762
+Complete
+  shot shots/app_onboard_00.png (991912 bytes)
+  onboarding tap 'تخطّي'
+  shot shots/app_onboard_01.png (1112592 bytes)
+  scroll for more
+  shot shots/app_onboard_02.png (885302 bytes)
+  onboarding tap 'خلّصت، يلا'
+  home reached
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 3938
+WaitTime: 4008
+Complete
+  shot shots/01_home.png (961711 bytes)
+  shot shots/01_home_b.png (1006631 bytes)
+== 02_tour
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 3022
+WaitTime: 3090
+Complete
+  tap 'سَنَد 3.0 وصل' @ (458, 1122)
+  shot shots/02_tour.png (941342 bytes)
+== 03_agent
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2478
+WaitTime: 2496
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  shot shots/03_agent.png (954318 bytes)
+  shot shots/03_agent_b.png (941375 bytes)
+== 04_ai_settings
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 4228
+WaitTime: 4304
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'العقل الذكي' @ (458, 975)
+  shot shots/04_ai_settings.png (877531 bytes)
+  shot shots/04_ai_settings_b.png (952767 bytes)
+== 05_agent_v2
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 3366
+WaitTime: 3465
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'الوكيل 2.0' @ (458, 1215)
+  shot shots/05_agent_v2.png (907135 bytes)
+  shot shots/05_agent_v2_b.png (915135 bytes)
+== 06_sanad_v3
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2698
+WaitTime: 2780
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'سَنَد 3.0' @ (458, 1491)
+  shot shots/06_sanad_v3.png (1038783 bytes)
+  shot shots/06_sanad_v3_b.png (1016627 bytes)
+== 07_memory
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2760
+WaitTime: 2785
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'ذاكرة سَنَد' @ (458, 1777)
+  shot shots/07_memory.png (627255 bytes)
+== 08_reminders
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2809
+WaitTime: 2831
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'التذكيرات' @ (458, 2027)
+  shot shots/08_reminders.png (584266 bytes)
+== 09_skills
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2242
+WaitTime: 2251
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'مكتبة المهارات' @ (458, 2089)
+  shot shots/09_skills.png (946596 bytes)
+  shot shots/09_skills_b.png (958444 bytes)
+== 10_drive
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2033
+WaitTime: 2042
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'وضع السواقة' @ (458, 1696)
+  shot shots/10_drive.png (686263 bytes)
+== 11_form_fill
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1912
+WaitTime: 2004
+Complete
+  tap 'عقل الوكيل' @ (458, 1408)
+  tap 'ملء النماذج' @ (458, 2312)
+  shot shots/11_form_fill.png (766708 bytes)
+== 12_automation
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2048
+WaitTime: 2064
+Complete
+  tap 'الأتمتة' @ (458, 1648)
+  shot shots/12_automation.png (1144927 bytes)
+  shot shots/12_automation_b.png (1040873 bytes)
+== 13_family
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2049
+WaitTime: 2177
+Complete
+  tap 'العيلة' @ (458, 1924)
+  shot shots/13_family.png (1046728 bytes)
+  shot shots/13_family_b.png (962271 bytes)
+== 14_phone_health
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2255
+WaitTime: 2269
+Complete
+  tap 'صحة الموبايل' @ (458, 2200)
+  shot shots/14_phone_health.png (958607 bytes)
+  shot shots/14_phone_health_b.png (974989 bytes)
+== 15_privacy
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2016
+WaitTime: 2034
+Complete
+  tap 'مركز الخصوصية' @ (458, 2232)
+  shot shots/15_privacy.png (1130299 bytes)
+  shot shots/15_privacy_b.png (999542 bytes)
+== 16_your_day
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2167
+WaitTime: 2204
+Complete
+  tap 'يومك' @ (458, 1853)
+  shot shots/16_your_day.png (897161 bytes)
+== 17_settings
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1973
+WaitTime: 1985
+Complete
+  tap 'الإعدادات' @ (458, 631)
+  shot shots/17_settings.png (1133902 bytes)
+  shot shots/17_settings_b.png (826379 bytes)
+== 18_agent_setup
+  am start -n com.sanad.app/.MainActivity 
+Starting: Intent { cmp=com.sanad.app/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2511
+WaitTime: 2532
+Complete
+  tap 'فعّل الوكيل' @ (458, 545)
+  shot shots/18_agent_setup.png (1134856 bytes)
+  shot shots/18_agent_setup_b.png (834424 bytes)
+== 30_admin_home
+  am start -n com.sanad.admin/.MainActivity 
+Starting: Intent { cmp=com.sanad.admin/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 2809
+WaitTime: 2822
+Complete
+  shot shots/admin_onboard_00.png (845900 bytes)
+  onboarding tap 'التالي'
+  shot shots/admin_onboard_01.png (610500 bytes)
+  onboarding tap 'التالي'
+  shot shots/admin_onboard_02.png (616080 bytes)
+  scroll for more
+  shot shots/admin_onboard_03.png (628101 bytes)
+  scroll for more
+  shot shots/admin_onboard_04.png (616439 bytes)
+  scroll for more
+  shot shots/admin_onboard_05.png (632571 bytes)
+  scroll for more
+  shot shots/admin_onboard_06.png (614019 bytes)
+  scroll for more
+  shot shots/admin_onboard_07.png (634930 bytes)
+  scroll for more
+  shot shots/admin_onboard_08.png (614824 bytes)
+  scroll for more
+  shot shots/admin_onboard_09.png (631523 bytes)
+  scroll for more
+  shot shots/admin_onboard_10.png (615387 bytes)
+  scroll for more
+  shot shots/admin_onboard_11.png (639274 bytes)
+  scroll for more
+  shot shots/admin_onboard_12.png (610219 bytes)
+  scroll for more
+  shot shots/admin_onboard_13.png (639830 bytes)
+  scroll for more
+  shot shots/admin_onboard_14.png (603555 bytes)
+  scroll for more
+  shot shots/admin_onboard_15.png (639191 bytes)
+  scroll for more
+  shot shots/admin_onboard_16.png (605431 bytes)
+  scroll for more
+  shot shots/admin_onboard_17.png (640519 bytes)
+  scroll for more
+  shot shots/admin_onboard_18.png (602447 bytes)
+  scroll for more
+  shot shots/admin_onboard_19.png (643280 bytes)
+  scroll for more
+  shot shots/admin_onboard_20.png (604103 bytes)
+  scroll for more
+  shot shots/admin_onboard_21.png (639628 bytes)
+  scroll for more
+  shot shots/admin_onboard_22.png (605765 bytes)
+  scroll for more
+  shot shots/admin_onboard_23.png (642877 bytes)
+  scroll for more
+  am start -n com.sanad.admin/.MainActivity 
+Starting: Intent { cmp=com.sanad.admin/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 2523
+WaitTime: 2533
+Complete
+  shot shots/30_admin_home.png (868390 bytes)
+  explore 2 labels
+  am start -n com.sanad.admin/.MainActivity 
+Starting: Intent { cmp=com.sanad.admin/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 2544
+WaitTime: 2639
+Complete
+  tap 'لوحة المالك' @ (540, 680)
+  shot shots/30_admin_home_00.png (843974 bytes)
+  am start -n com.sanad.admin/.MainActivity 
+Starting: Intent { cmp=com.sanad.admin/.MainActivity }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 2927
+WaitTime: 2957
+Complete
+  tap 'التالي' @ (540, 1581)
+  shot shots/30_admin_home_01.png (633450 bytes)
+walk done: 19/19 screens reached
+no crashes
+total 57000
+drwxr-xr-x 2 runner runner    4096 Oct 12 12:17 .
+drwxr-xr-x 7 runner runner    4096 Oct 12 11:54 ..
+-rw-r--r-- 1 runner runner  961711 Oct 12 11:57 01_home.png
+-rw-r--r-- 1 runner runner 1006631 Oct 12 11:58 01_home_b.png
+-rw-r--r-- 1 runner runner  941342 Oct 12 11:58 02_tour.png
+-rw-r--r-- 1 runner runner  954318 Oct 12 11:59 03_agent.png
+-rw-r--r-- 1 runner runner  941375 Oct 12 11:59 03_agent_b.png
+-rw-r--r-- 1 runner runner  877531 Oct 12 12:00 04_ai_settings.png
+-rw-r--r-- 1 runner runner  952767 Oct 12 12:00 04_ai_settings_b.png
+-rw-r--r-- 1 runner runner  907135 Oct 12 12:00 05_agent_v2.png
+-rw-r--r-- 1 runner runner  915135 Oct 12 12:01 05_agent_v2_b.png
+-rw-r--r-- 1 runner runner 1038783 Oct 12 12:01 06_sanad_v3.png
+-rw-r--r-- 1 runner runner 1016627 Oct 12 12:02 06_sanad_v3_b.png
+-rw-r--r-- 1 runner runner  627255 Oct 12 12:02 07_memory.png
+-rw-r--r-- 1 runner runner  584266 Oct 12 12:03 08_reminders.png
+-rw-r--r-- 1 runner runner  946596 Oct 12 12:04 09_skills.png
+-rw-r--r-- 1 runner runner  958444 Oct 12 12:04 09_skills_b.png
+-rw-r--r-- 1 runner runner  686263 Oct 12 12:05 10_drive.png
+-rw-r--r-- 1 runner runner  766708 Oct 12 12:06 11_form_fill.png
+-rw-r--r-- 1 runner runner 1144927 Oct 12 12:07 12_automation.png
+-rw-r--r-- 1 runner runner 1040873 Oct 12 12:07 12_automation_b.png
+-rw-r--r-- 1 runner runner 1046728 Oct 12 12:07 13_family.png
+-rw-r--r-- 1 runner runner  962271 Oct 12 12:07 13_family_b.png
+-rw-r--r-- 1 runner runner  958607 Oct 12 12:08 14_phone_health.png
+-rw-r--r-- 1 runner runner  974989 Oct 12 12:08 14_phone_health_b.png
+-rw-r--r-- 1 runner runner 1130299 Oct 12 12:09 15_privacy.png
+-rw-r--r-- 1 runner runner  999542 Oct 12 12:09 15_privacy_b.png
+-rw-r--r-- 1 runner runner  897161 Oct 12 12:10 16_your_day.png
+-rw-r--r-- 1 runner runner 1133902 Oct 12 12:10 17_settings.png
+-rw-r--r-- 1 runner runner  826379 Oct 12 12:10 17_settings_b.png
+-rw-r--r-- 1 runner runner 1134856 Oct 12 12:11 18_agent_setup.png
+-rw-r--r-- 1 runner runner  834424 Oct 12 12:11 18_agent_setup_b.png
+-rw-r--r-- 1 runner runner  868390 Oct 12 12:16 30_admin_home.png
+-rw-r--r-- 1 runner runner  843974 Oct 12 12:17 30_admin_home_00.png
+-rw-r--r-- 1 runner runner  633450 Oct 12 12:17 30_admin_home_01.png
+-rw-r--r-- 1 runner runner  845900 Oct 12 12:12 admin_onboard_00.png
+-rw-r--r-- 1 runner runner  610500 Oct 12 12:12 admin_onboard_01.png
+-rw-r--r-- 1 runner runner  616080 Oct 12 12:12 admin_onboard_02.png
+-rw-r--r-- 1 runner runner  628101 Oct 12 12:12 admin_onboard_03.png
+-rw-r--r-- 1 runner runner  616439 Oct 12 12:12 admin_onboard_04.png
+-rw-r--r-- 1 runner runner  632571 Oct 12 12:13 admin_onboard_05.png
+-rw-r--r-- 1 runner runner  614019 Oct 12 12:13 admin_onboard_06.png
+-rw-r--r-- 1 runner runner  634930 Oct 12 12:13 admin_onboard_07.png
+-rw-r--r-- 1 runner runner  614824 Oct 12 12:13 admin_onboard_08.png
+-rw-r--r-- 1 runner runner  631523 Oct 12 12:13 admin_onboard_09.png
+-rw-r--r-- 1 runner runner  615387 Oct 12 12:14 admin_onboard_10.png
+-rw-r--r-- 1 runner runner  639274 Oct 12 12:14 admin_onboard_11.png
+-rw-r--r-- 1 runner runner  610219 Oct 12 12:14 admin_onboard_12.png
+-rw-r--r-- 1 runner runner  639830 Oct 12 12:14 admin_onboard_13.png
+-rw-r--r-- 1 runner runner  603555 Oct 12 12:14 admin_onboard_14.png
+-rw-r--r-- 1 runner runner  639191 Oct 12 12:15 admin_onboard_15.png
+-rw-r--r-- 1 runner runner  605431 Oct 12 12:15 admin_onboard_16.png
+-rw-r--r-- 1 runner runner  640519 Oct 12 12:15 admin_onboard_17.png
+-rw-r--r-- 1 runner runner  602447 Oct 12 12:15 admin_onboard_18.png
+-rw-r--r-- 1 runner runner  643280 Oct 12 12:15 admin_onboard_19.png
+-rw-r--r-- 1 runner runner  604103 Oct 12 12:16 admin_onboard_20.png
+-rw-r--r-- 1 runner runner  639628 Oct 12 12:16 admin_onboard_21.png
+-rw-r--r-- 1 runner runner  605765 Oct 12 12:16 admin_onboard_22.png
+-rw-r--r-- 1 runner runner  642877 Oct 12 12:16 admin_onboard_23.png
+-rw-r--r-- 1 runner runner  991912 Oct 12 11:56 app_onboard_00.png
+-rw-r--r-- 1 runner runner 1112592 Oct 12 11:56 app_onboard_01.png
+-rw-r--r-- 1 runner runner  885302 Oct 12 11:57 app_onboard_02.png
+-rw-r--r-- 1 runner runner      69 Oct 12 12:17 crashes.txt
+-rw-r--r-- 1 runner runner 9521308 Oct 12 12:17 logcat_full.txt
+-rw-r--r-- 1 runner runner    9744 Oct 12 12:17 run.log
