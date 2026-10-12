@@ -1,7 +1,7 @@
 name: Sanad screenshots
 
 # Real in-app screenshots of Sanad + Sanad Admin on an x86_64 API 34 emulator.
-# Trigger: manual dispatch only (uploading APKs no longer auto-runs). 4 parallel shards, one emulator each.
+# Trigger: manual dispatch only (uploading APKs no longer auto-runs). 6 parallel shards, one emulator each.
 # Output: artifact "shots" (PNGs + crashes.txt + logs) and the same files force-pushed to branch "shots".
 # Nothing here publishes anything.
 
@@ -27,11 +27,11 @@ permissions:
 jobs:
   shots:
     runs-on: ubuntu-latest
-    timeout-minutes: 55
+    timeout-minutes: 75
     strategy:
       fail-fast: false
       matrix:
-        shard: [0, 1, 2, 3]
+        shard: [0, 1, 2, 3, 4, 5]
     steps:
       - name: Free disk space
         run: |
@@ -50,11 +50,12 @@ jobs:
       - name: Run emulator, install, walk screens
         id: emu
         continue-on-error: true
+        timeout-minutes: 60
         uses: reactivecircus/android-emulator-runner@v2
         env:
           DEEPLINK: ${{ inputs.deeplink && '1' || '0' }}
           SHARD: ${{ matrix.shard }}
-          SHARDS: 4
+          SHARDS: 6
           ONLY: ${{ inputs.only }}
         with:
           api-level: 34
