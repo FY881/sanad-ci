@@ -93,8 +93,9 @@ def is_home(ns, pkg):
     if pkg == "com.sanad.app": return "عقل الوكيل" in txt and ("الاتمتة" in txt or "الأتمتة" in txt or "مركز الخصوصية" in txt)
     return False
 
-GO = ["تخطي", "تخطى", "ابدأ", "ابدا", "يلا", "التالي", "كمل", "كمّل", "متابعة", "موافق", "تمام", "دخول", "افتح", "السماح", "Allow", "Next", "Start", "Skip", "OK", "Continue"]
-BAD = ["إمكانية الوصول", "امكانية الوصول", "معلومات التطبيق", "الإعدادات المقيدة"]
+GO = ["بعدين", "لاحقا", "مش دلوقتي", "من غير", "ادخل", "خلصت", "يلا بينا", "تخطي", "تخطى", "ابدأ", "ابدا", "يلا", "التالي", "كمل", "كمّل", "متابعة", "موافق", "تمام", "دخول", "افتح", "السماح", "Allow", "Next", "Start", "Skip", "OK", "Continue"]
+BAD = ["إمكانية الوصول", "امكانية الوصول", "معلومات التطبيق", "الإعدادات المقيدة", "بالإعدادات المقيدة", "Allow restricted", "الخطوة"]
+PIN = "135790"
 
 def launch(pkg, act, extras="", wait=6.0):
     adb(f"am force-stop {pkg}"); time.sleep(0.8)
@@ -105,25 +106,36 @@ def launch(pkg, act, extras="", wait=6.0):
 
 def onboard(pkg, act):
     launch(pkg, act, "", 7)
-    for step in range(22):
+    tapped = {}
+    for step in range(24):
         if focused_pkg() not in (pkg, ""):
             print(f"  left app ({focused_pkg()}) -> back"); back(); continue
         ns = nodes(dump())
         if is_home(ns, pkg): print("  home reached"); return True
         shot(f"{pkg.split('.')[-1]}_onboard_{step:02d}")
+        edits = [n for n in ns if n["pkg"] == pkg and "EditText" in n["cls"]]
+        if edits and pkg == "com.sanad.admin":  # owner PIN (fresh emulator: choose then confirm a throwaway PIN)
+            tap(*edits[0]["c"]); adb(f"input text {PIN}"); time.sleep(0.8)
+            adb("input keyevent KEYCODE_BACK"); time.sleep(0.8)
+            ns = nodes(dump()); b = find("دخول", ns) or find("تأكيد", ns) or find("حفظ", ns)
+            if b: print("  admin PIN entered"); tap(*b["c"]); time.sleep(2)
+            continue
         cands = [n for n in ns if n["pkg"] == pkg and norm(n["text"]) and not any(norm(b) in norm(n["text"]) for b in BAD)]
         pick = None
         for g in GO:
             for n in cands:
-                if norm(g) and norm(g) in norm(n["text"]) and len(norm(n["text"])) < 40: pick = n; break
+                t = norm(n["text"])
+                if norm(g) and norm(g) in t and len(t) < 30 and tapped.get(t, 0) < 2: pick = n; break
             if pick: break
         if not pick:
-            btns = [n for n in ns if n["pkg"] == pkg and n["click"]]
-            if btns: pick = max(btns, key=lambda n: n["b"][3])  # bottom-most clickable
-        if not pick:
-            if pkg != "com.sanad.app": return False
-            swipe_up(); continue
+            btns = [n for n in ns if n["pkg"] == pkg and n["click"] and tapped.get(norm(n["text"]), 0) < 2
+                    and not any(norm(b) in norm(n["text"]) for b in BAD)]
+            if btns and step % 2 == 0: pick = max(btns, key=lambda n: n["b"][3])  # bottom-most clickable
+            else: print("  scroll for more"); swipe_up(); swipe_up(); continue
+        t = norm(pick["text"]); tapped[t] = tapped.get(t, 0) + 1
         print(f"  onboarding tap '{pick['text'].strip()[:40]}'"); tap(*pick["c"])
+    if pkg == "com.sanad.app":  # last resort: mark onboarded (works only if the APK is debuggable)
+        print("  run-as fallback:", adb("run-as com.sanad.app sh -c 'ls shared_prefs'"))
     return False
 
 def page_scrollable(ns): return any(n["scroll"] for n in ns)
