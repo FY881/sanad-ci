@@ -28,11 +28,15 @@ def shot(name):
     sz = os.path.getsize(p) if os.path.exists(p) else 0
     print(f"  shot {p} ({sz} bytes)"); return p
 
+LAST_XML = ""
+CRASHES = [0]
 def dump():
+    global LAST_XML
     for _ in range(3):
         sh("adb shell rm -f /sdcard/w.xml"); adb("uiautomator dump /sdcard/w.xml", 30)
         x = sh("adb exec-out cat /sdcard/w.xml", 20)
         if x.strip().startswith("<?xml"):
+            LAST_XML = x
             try: return ET.fromstring(x)
             except ET.ParseError: pass
         time.sleep(1.5)
@@ -143,6 +147,8 @@ def page_scrollable(ns): return any(n["scroll"] for n in ns)
 def capture(name, deep):
     shot(name)
     ns = nodes(dump())
+    try: open(os.path.join(OUT, re.sub(r"[^\w.\-]+", "_", name) + ".xml"), "w", encoding="utf-8").write(LAST_XML)   # for captions / QA
+    except Exception: pass
     if page_scrollable(ns):
         swipe_up(); swipe_up(); shot(name + "_b")
 
@@ -183,7 +189,10 @@ def main():
                 launch(pkg, act, extras, 9 if pkg == "com.sanad.admin" else 6)
                 fp = focused_pkg()
                 if fp and fp != pkg: print(f"  WARN focus is {fp} after launch"); shot(name + "_FOCUS_" + fp.split('.')[-1]); adb("input keyevent KEYCODE_BACK"); time.sleep(1)
-                capture(name, True); ok += 1; continue
+                capture(name, True); ok += 1
+                nf = sh("adb logcat -d -b crash | grep -c 'FATAL EXCEPTION'", 20).strip()
+                if nf.isdigit() and int(nf) > CRASHES[0]: CRASHES[0] = int(nf); print(f"  CRASH after {name}"); open(os.path.join(OUT, "crash_screens.txt"), "a").write(name + "\n")
+                continue
             launch(pkg, act, "", 6)
             if focused_pkg() not in (pkg, ""): back()
             if taps == "*": shot(name); explore(pkg, act, name); ok += 1; continue
