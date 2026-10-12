@@ -1,0 +1,21 @@
+# package|activity|extras|name|taps (fallback path of Arabic labels, '>' separated; '*' = explore one level)
+# extras are used only when the workflow runs with deeplink=true (needs the `screen` hook in MainActivity).
+com.sanad.app|.MainActivity|--es screen home|01_home|
+com.sanad.app|.MainActivity|--es screen tour|02_tour|سَنَد 3.0 وصل
+com.sanad.app|.MainActivity|--es screen agent|03_agent|عقل الوكيل
+com.sanad.app|.MainActivity|--es screen ai_settings|04_ai_settings|عقل الوكيل>العقل الذكي
+com.sanad.app|.MainActivity|--es screen v2|05_agent_v2|عقل الوكيل>الوكيل 2.0
+com.sanad.app|.MainActivity|--es screen v3|06_sanad_v3|عقل الوكيل>سَنَد 3.0
+com.sanad.app|.MainActivity|--es screen memory|07_memory|عقل الوكيل>ذاكرة سَنَد
+com.sanad.app|.MainActivity|--es screen reminders|08_reminders|عقل الوكيل>التذكيرات
+com.sanad.app|.MainActivity|--es screen skills|09_skills|عقل الوكيل>مكتبة المهارات
+com.sanad.app|.MainActivity|--es screen drive|10_drive|عقل الوكيل>وضع السواقة
+com.sanad.app|.MainActivity|--es screen profile|11_form_fill|عقل الوكيل>ملء النماذج
+com.sanad.app|.MainActivity|--es screen auto|12_automation|الأتمتة
+com.sanad.app|.MainActivity|--es screen family|13_family|العيلة
+com.sanad.app|.MainActivity|--es screen health|14_phone_health|صحة الموبايل
+com.sanad.app|.MainActivity|--es screen privacy|15_privacy|مركز الخصوصية
+com.sanad.app|.MainActivity|--es screen life|16_your_day|يومك
+com.sanad.app|.MainActivity|--es screen settings|17_settings|الإعدادات
+com.sanad.app|.MainActivity|--es screen setup|18_agent_setup|فعّل الوكيل
+com.sanad.admin|.MainActivity||30_admin_home|*
