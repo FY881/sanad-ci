@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 36" width="1280" height="36" role="img" aria-label="divider">
+<defs><linearGradient id="g" x1="0" x2="1280" gradientUnits="userSpaceOnUse" spreadMethod="reflect"><stop offset="0" stop-color="#7c4dff" stop-opacity="0"/><stop offset="0.25" stop-color="#7c4dff"/><stop offset="0.5" stop-color="#12c2b8"/><stop offset="0.75" stop-color="#d04fd8"/><stop offset="1" stop-color="#d04fd8" stop-opacity="0"/></linearGradient>
+<radialGradient id="dot"><stop offset="0" stop-color="#ffffff"/><stop offset="0.35" stop-color="#5ff3e6"/><stop offset="1" stop-color="#5ff3e6" stop-opacity="0"/></radialGradient>
+<linearGradient id="fade" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.12" stop-color="#fff"/><stop offset="0.88" stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<mask id="m"><rect width="1280" height="36" fill="url(#fade)"/></mask></defs>
+<g mask="url(#m)">
+<rect x="0" y="17" width="1280" height="2" rx="1" fill="url(#g)" opacity="0.85"/>
+<path d="M0 18 Q 80 6 160 18 T 320 18 T 480 18 T 640 18 T 800 18 T 960 18 T 1120 18 T 1280 18 T 1440 18 T 1600 18" fill="none" stroke="url(#g)" stroke-width="1.2" opacity="0.5"><animateTransform attributeName="transform" type="translate" values="0 0;-320 0" dur="6s" repeatCount="indefinite"/></path>
+<circle cx="0" cy="18" r="12" fill="url(#dot)"><animate attributeName="cx" values="-20;1300" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="1280" cy="18" r="8" fill="url(#dot)" opacity="0.7"><animate attributeName="cx" values="1300;-20" dur="7s" repeatCount="indefinite"/></circle>
+</g>
+<g transform="translate(640 18)"><rect x="-7" y="-7" width="14" height="14" rx="3" fill="#12c2b8" transform="rotate(45)"><animateTransform attributeName="transform" type="rotate" values="45;225;405" dur="6s" repeatCount="indefinite"/></rect></g>
+</svg>
