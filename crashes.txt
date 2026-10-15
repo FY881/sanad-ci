@@ -1,0 +1,3 @@
+=== logcat -b crash ===
+
+=== FATAL / ANR / AndroidRuntime (main) ===

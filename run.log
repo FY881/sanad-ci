@@ -1,0 +1,547 @@
+system_server pid 3306 -> 3306
+ar-EG
+x86_64,arm64-v8a
+Performing Streamed Install
+Success
+Performing Streamed Install
+Success
+package:com.sanad.app
+package:com.sanad.admin
+Added: com.sanad.app
+Added: com.sanad.admin
+== 005_v2
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v2
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2476
+WaitTime: 2480
+Complete
+  shot shots/005_v2.png (892695 bytes)
+  shot shots/005_v2_b.png (1002456 bytes)
+== 011_learned
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen learned
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1963
+WaitTime: 1965
+Complete
+  shot shots/011_learned.png (619746 bytes)
+== 017_health
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen health
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 3300
+WaitTime: 3312
+Complete
+  shot shots/017_health.png (941636 bytes)
+  shot shots/017_health_b.png (991420 bytes)
+== 023_policy
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen policy
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2160
+WaitTime: 2171
+Complete
+  shot shots/023_policy.png (1086262 bytes)
+  shot shots/023_policy_b.png (837003 bytes)
+== 029_v3_translate
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v3.translate
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2074
+WaitTime: 2110
+Complete
+  shot shots/029_v3_translate.png (708341 bytes)
+== 035_a_ensemble
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen a.ensemble
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2555
+WaitTime: 2567
+Complete
+  shot shots/035_a_ensemble.png (846321 bytes)
+== 041_a_media
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen a.media
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1616
+WaitTime: 1634
+Complete
+  shot shots/041_a_media.png (719857 bytes)
+== 047_a_cloud
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen a.cloud
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1839
+WaitTime: 1845
+Complete
+  shot shots/047_a_cloud.png (749056 bytes)
+== 053_a_cart
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen a.cart
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1729
+WaitTime: 1738
+Complete
+  shot shots/053_a_cart.png (733212 bytes)
+== 059_b_queue
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b.queue
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1530
+WaitTime: 1532
+Complete
+  shot shots/059_b_queue.png (724861 bytes)
+== 065_b_fall
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b.fall
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1921
+WaitTime: 1929
+Complete
+  shot shots/065_b_fall.png (1046713 bytes)
+== 071_b_shield
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b.shield
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1911
+WaitTime: 1913
+Complete
+  shot shots/071_b_shield.png (802539 bytes)
+== 077_b2_energy
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b2.energy
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2132
+WaitTime: 2142
+Complete
+  shot shots/077_b2_energy.png (780981 bytes)
+== 083_b2_kidsleep
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b2.kidsleep
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1834
+WaitTime: 1852
+Complete
+  shot shots/083_b2_kidsleep.png (782528 bytes)
+  shot shots/083_b2_kidsleep_b.png (838602 bytes)
+== 089_b2_scam
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen b2.scam
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1730
+WaitTime: 1737
+Complete
+  shot shots/089_b2_scam.png (752790 bytes)
+== 095_c_adaptive
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen c.adaptive
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1916
+WaitTime: 1924
+Complete
+  shot shots/095_c_adaptive.png (856843 bytes)
+  shot shots/095_c_adaptive_b.png (649463 bytes)
+== 101_c_everywhere
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen c.everywhere
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1763
+WaitTime: 1767
+Complete
+  shot shots/101_c_everywhere.png (1111545 bytes)
+  shot shots/101_c_everywhere_b.png (1063658 bytes)
+== 107_c_report
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen c.report
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1900
+WaitTime: 1902
+Complete
+  shot shots/107_c_report.png (747333 bytes)
+== 113_c_privacy
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen c.privacy
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1809
+WaitTime: 1846
+Complete
+  shot shots/113_c_privacy.png (856983 bytes)
+== 119_plans_plus
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es tier plus --es screen c.plans
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1900
+WaitTime: 1910
+Complete
+  shot shots/119_plans_plus.png (1001986 bytes)
+  shot shots/119_plans_plus_b.png (1132123 bytes)
+== 125_plans_business
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es tier business --es screen c.plans
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1998
+WaitTime: 2002
+Complete
+  shot shots/125_plans_business.png (991658 bytes)
+  shot shots/125_plans_business_b.png (1152672 bytes)
+== 131_admin_panels
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen panels
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1701
+WaitTime: 1722
+Complete
+  shot shots/131_admin_panels.png (611226 bytes)
+== 137_admin_emergency
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen emergency
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1894
+WaitTime: 1899
+Complete
+  shot shots/137_admin_emergency.png (654297 bytes)
+== 143_admin_scam
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen scam
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 2130
+WaitTime: 2133
+Complete
+  shot shots/143_admin_scam.png (682390 bytes)
+== 149_admin_prompt_ab
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen prompt_ab
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1870
+WaitTime: 1874
+Complete
+  shot shots/149_admin_prompt_ab.png (754631 bytes)
+== 155_admin_transparency
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen transparency
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1946
+WaitTime: 1951
+Complete
+  shot shots/155_admin_transparency.png (1439575 bytes)
+  shot shots/155_admin_transparency_b.png (1399826 bytes)
+== 161_admin_publish
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen publish
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1580
+WaitTime: 1600
+Complete
+  shot shots/161_admin_publish.png (818132 bytes)
+== 167_v6_room
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6.room
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2355
+WaitTime: 2376
+Complete
+  shot shots/167_v6_room.png (816617 bytes)
+  shot shots/167_v6_room_b.png (900643 bytes)
+== 173_v6_grants
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6.grants
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1913
+WaitTime: 2084
+Complete
+  shot shots/173_v6_grants.png (911224 bytes)
+  shot shots/173_v6_grants_b.png (912077 bytes)
+== 179_v6_appeal
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6.appeal
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1872
+WaitTime: 1876
+Complete
+  shot shots/179_v6_appeal.png (677839 bytes)
+== 185_v6b_limits
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6b.limits
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2270
+WaitTime: 2272
+Complete
+  shot shots/185_v6b_limits.png (1097054 bytes)
+  shot shots/185_v6b_limits_b.png (1095523 bytes)
+== 191_v6b_credit
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6b.credit
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 1964
+WaitTime: 1969
+Complete
+  shot shots/191_v6b_credit.png (712818 bytes)
+== 197_v6c_paper
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6c.paper
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2115
+WaitTime: 2123
+Complete
+  shot shots/197_v6c_paper.png (956946 bytes)
+  shot shots/197_v6c_paper_b.png (1056246 bytes)
+== 203_v6c_legacy
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6c.legacy
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2002
+WaitTime: 2007
+Complete
+  shot shots/203_v6c_legacy.png (869758 bytes)
+  shot shots/203_v6c_legacy_b.png (859008 bytes)
+== 209_v6d_hub
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6d.hub
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2081
+WaitTime: 2095
+Complete
+  shot shots/209_v6d_hub.png (1008946 bytes)
+  shot shots/209_v6d_hub_b.png (1038683 bytes)
+== 215_v6d_legal
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6d.legal
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2294
+WaitTime: 2297
+Complete
+  shot shots/215_v6d_legal.png (1206268 bytes)
+  shot shots/215_v6d_legal_b.png (1217190 bytes)
+== 221_v6d_complaint
+  am start -n com.sanad.app/.MainActivity --es ci 1 --es screen v6d.complaint
+Starting: Intent { cmp=com.sanad.app/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.app/.MainActivity
+TotalTime: 2194
+WaitTime: 2199
+Complete
+  shot shots/221_v6d_complaint.png (844253 bytes)
+  shot shots/221_v6d_complaint_b.png (812737 bytes)
+== 227_admin_dev_ab
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen dev.ab
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1530
+WaitTime: 1533
+Complete
+  shot shots/227_admin_dev_ab.png (790543 bytes)
+== 233_admin_rk
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen rk
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1841
+WaitTime: 1849
+Complete
+  shot shots/233_admin_rk.png (1028180 bytes)
+  shot shots/233_admin_rk_b.png (984748 bytes)
+== 239_admin_rk_dash
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen rk.dash
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1602
+WaitTime: 1605
+Complete
+  shot shots/239_admin_rk_dash.png (790641 bytes)
+== 245_admin_soc_actions
+  am start -n com.sanad.admin/.MainActivity --es ci 1 --es ci_pin 135790 --es screen soc.actions
+Starting: Intent { cmp=com.sanad.admin/.MainActivity (has extras) }
+Status: ok
+LaunchState: COLD
+Activity: com.sanad.admin/.MainActivity
+TotalTime: 1878
+WaitTime: 1884
+Complete
+  shot shots/245_admin_soc_actions.png (661644 bytes)
+walk done: 41/41 screens reached
+no crashes
+total 58444
+drwxr-xr-x 2 runner runner    4096 Oct 15 11:31 .
+drwxr-xr-x 8 runner runner    4096 Oct 15 11:16 ..
+-rw-r--r-- 1 runner runner  892695 Oct 15 11:18 005_v2.png
+-rw-r--r-- 1 runner runner   16527 Oct 15 11:18 005_v2.xml
+-rw-r--r-- 1 runner runner 1002456 Oct 15 11:18 005_v2_b.png
+-rw-r--r-- 1 runner runner  619746 Oct 15 11:18 011_learned.png
+-rw-r--r-- 1 runner runner    4132 Oct 15 11:18 011_learned.xml
+-rw-r--r-- 1 runner runner  941636 Oct 15 11:18 017_health.png
+-rw-r--r-- 1 runner runner   21821 Oct 15 11:19 017_health.xml
+-rw-r--r-- 1 runner runner  991420 Oct 15 11:19 017_health_b.png
+-rw-r--r-- 1 runner runner 1086262 Oct 15 11:19 023_policy.png
+-rw-r--r-- 1 runner runner    7158 Oct 15 11:19 023_policy.xml
+-rw-r--r-- 1 runner runner  837003 Oct 15 11:19 023_policy_b.png
+-rw-r--r-- 1 runner runner  708341 Oct 15 11:19 029_v3_translate.png
+-rw-r--r-- 1 runner runner    7648 Oct 15 11:19 029_v3_translate.xml
+-rw-r--r-- 1 runner runner  846321 Oct 15 11:19 035_a_ensemble.png
+-rw-r--r-- 1 runner runner   11147 Oct 15 11:20 035_a_ensemble.xml
+-rw-r--r-- 1 runner runner  719857 Oct 15 11:20 041_a_media.png
+-rw-r--r-- 1 runner runner    4302 Oct 15 11:20 041_a_media.xml
+-rw-r--r-- 1 runner runner  749056 Oct 15 11:20 047_a_cloud.png
+-rw-r--r-- 1 runner runner    5351 Oct 15 11:20 047_a_cloud.xml
+-rw-r--r-- 1 runner runner  733212 Oct 15 11:20 053_a_cart.png
+-rw-r--r-- 1 runner runner    6468 Oct 15 11:20 053_a_cart.xml
+-rw-r--r-- 1 runner runner  724861 Oct 15 11:20 059_b_queue.png
+-rw-r--r-- 1 runner runner    4811 Oct 15 11:21 059_b_queue.xml
+-rw-r--r-- 1 runner runner 1046713 Oct 15 11:21 065_b_fall.png
+-rw-r--r-- 1 runner runner   11726 Oct 15 11:21 065_b_fall.xml
+-rw-r--r-- 1 runner runner  802539 Oct 15 11:21 071_b_shield.png
+-rw-r--r-- 1 runner runner    8085 Oct 15 11:21 071_b_shield.xml
+-rw-r--r-- 1 runner runner  780981 Oct 15 11:21 077_b2_energy.png
+-rw-r--r-- 1 runner runner    9024 Oct 15 11:21 077_b2_energy.xml
+-rw-r--r-- 1 runner runner  782528 Oct 15 11:21 083_b2_kidsleep.png
+-rw-r--r-- 1 runner runner   17054 Oct 15 11:22 083_b2_kidsleep.xml
+-rw-r--r-- 1 runner runner  838602 Oct 15 11:22 083_b2_kidsleep_b.png
+-rw-r--r-- 1 runner runner  752790 Oct 15 11:22 089_b2_scam.png
+-rw-r--r-- 1 runner runner    6828 Oct 15 11:22 089_b2_scam.xml
+-rw-r--r-- 1 runner runner  856843 Oct 15 11:22 095_c_adaptive.png
+-rw-r--r-- 1 runner runner   16923 Oct 15 11:22 095_c_adaptive.xml
+-rw-r--r-- 1 runner runner  649463 Oct 15 11:22 095_c_adaptive_b.png
+-rw-r--r-- 1 runner runner 1111545 Oct 15 11:22 101_c_everywhere.png
+-rw-r--r-- 1 runner runner   11698 Oct 15 11:23 101_c_everywhere.xml
+-rw-r--r-- 1 runner runner 1063658 Oct 15 11:23 101_c_everywhere_b.png
+-rw-r--r-- 1 runner runner  747333 Oct 15 11:23 107_c_report.png
+-rw-r--r-- 1 runner runner   10178 Oct 15 11:23 107_c_report.xml
+-rw-r--r-- 1 runner runner  856983 Oct 15 11:23 113_c_privacy.png
+-rw-r--r-- 1 runner runner    8835 Oct 15 11:23 113_c_privacy.xml
+-rw-r--r-- 1 runner runner 1001986 Oct 15 11:23 119_plans_plus.png
+-rw-r--r-- 1 runner runner   15161 Oct 15 11:23 119_plans_plus.xml
+-rw-r--r-- 1 runner runner 1132123 Oct 15 11:24 119_plans_plus_b.png
+-rw-r--r-- 1 runner runner  991658 Oct 15 11:24 125_plans_business.png
+-rw-r--r-- 1 runner runner   15476 Oct 15 11:24 125_plans_business.xml
+-rw-r--r-- 1 runner runner 1152672 Oct 15 11:24 125_plans_business_b.png
+-rw-r--r-- 1 runner runner  611226 Oct 15 11:24 131_admin_panels.png
+-rw-r--r-- 1 runner runner    4533 Oct 15 11:24 131_admin_panels.xml
+-rw-r--r-- 1 runner runner  654297 Oct 15 11:24 137_admin_emergency.png
+-rw-r--r-- 1 runner runner    4660 Oct 15 11:24 137_admin_emergency.xml
+-rw-r--r-- 1 runner runner  682390 Oct 15 11:25 143_admin_scam.png
+-rw-r--r-- 1 runner runner    7888 Oct 15 11:25 143_admin_scam.xml
+-rw-r--r-- 1 runner runner  754631 Oct 15 11:25 149_admin_prompt_ab.png
+-rw-r--r-- 1 runner runner    9443 Oct 15 11:25 149_admin_prompt_ab.xml
+-rw-r--r-- 1 runner runner 1439575 Oct 15 11:25 155_admin_transparency.png
+-rw-r--r-- 1 runner runner    6687 Oct 15 11:25 155_admin_transparency.xml
+-rw-r--r-- 1 runner runner 1399826 Oct 15 11:25 155_admin_transparency_b.png
+-rw-r--r-- 1 runner runner  818132 Oct 15 11:26 161_admin_publish.png
+-rw-r--r-- 1 runner runner    9351 Oct 15 11:26 161_admin_publish.xml
+-rw-r--r-- 1 runner runner  816617 Oct 15 11:26 167_v6_room.png
+-rw-r--r-- 1 runner runner   19907 Oct 15 11:26 167_v6_room.xml
+-rw-r--r-- 1 runner runner  900643 Oct 15 11:26 167_v6_room_b.png
+-rw-r--r-- 1 runner runner  911224 Oct 15 11:26 173_v6_grants.png
+-rw-r--r-- 1 runner runner   16879 Oct 15 11:26 173_v6_grants.xml
+-rw-r--r-- 1 runner runner  912077 Oct 15 11:26 173_v6_grants_b.png
+-rw-r--r-- 1 runner runner  677839 Oct 15 11:27 179_v6_appeal.png
+-rw-r--r-- 1 runner runner    4612 Oct 15 11:27 179_v6_appeal.xml
+-rw-r--r-- 1 runner runner 1097054 Oct 15 11:27 185_v6b_limits.png
+-rw-r--r-- 1 runner runner   13683 Oct 15 11:27 185_v6b_limits.xml
+-rw-r--r-- 1 runner runner 1095523 Oct 15 11:27 185_v6b_limits_b.png
+-rw-r--r-- 1 runner runner  712818 Oct 15 11:27 191_v6b_credit.png
+-rw-r--r-- 1 runner runner    7926 Oct 15 11:27 191_v6b_credit.xml
+-rw-r--r-- 1 runner runner  956946 Oct 15 11:28 197_v6c_paper.png
+-rw-r--r-- 1 runner runner   13008 Oct 15 11:28 197_v6c_paper.xml
+-rw-r--r-- 1 runner runner 1056246 Oct 15 11:28 197_v6c_paper_b.png
+-rw-r--r-- 1 runner runner  869758 Oct 15 11:28 203_v6c_legacy.png
+-rw-r--r-- 1 runner runner   10534 Oct 15 11:28 203_v6c_legacy.xml
+-rw-r--r-- 1 runner runner  859008 Oct 15 11:28 203_v6c_legacy_b.png
+-rw-r--r-- 1 runner runner 1008946 Oct 15 11:28 209_v6d_hub.png
+-rw-r--r-- 1 runner runner   17316 Oct 15 11:28 209_v6d_hub.xml
+-rw-r--r-- 1 runner runner 1038683 Oct 15 11:28 209_v6d_hub_b.png
+-rw-r--r-- 1 runner runner 1206268 Oct 15 11:29 215_v6d_legal.png
+-rw-r--r-- 1 runner runner   18000 Oct 15 11:29 215_v6d_legal.xml
+-rw-r--r-- 1 runner runner 1217190 Oct 15 11:29 215_v6d_legal_b.png
+-rw-r--r-- 1 runner runner  844253 Oct 15 11:29 221_v6d_complaint.png
+-rw-r--r-- 1 runner runner   18953 Oct 15 11:29 221_v6d_complaint.xml
+-rw-r--r-- 1 runner runner  812737 Oct 15 11:29 221_v6d_complaint_b.png
+-rw-r--r-- 1 runner runner  790543 Oct 15 11:29 227_admin_dev_ab.png
+-rw-r--r-- 1 runner runner    6686 Oct 15 11:29 227_admin_dev_ab.xml
+-rw-r--r-- 1 runner runner 1028180 Oct 15 11:30 233_admin_rk.png
+-rw-r--r-- 1 runner runner   17869 Oct 15 11:30 233_admin_rk.xml
+-rw-r--r-- 1 runner runner  984748 Oct 15 11:30 233_admin_rk_b.png
+-rw-r--r-- 1 runner runner  790641 Oct 15 11:30 239_admin_rk_dash.png
+-rw-r--r-- 1 runner runner   12348 Oct 15 11:30 239_admin_rk_dash.xml
+-rw-r--r-- 1 runner runner  661644 Oct 15 11:30 245_admin_soc_actions.png
+-rw-r--r-- 1 runner runner    5031 Oct 15 11:31 245_admin_soc_actions.xml
+-rw-r--r-- 1 runner runner      69 Oct 15 11:31 crashes.txt
+-rw-r--r-- 1 runner runner 6121327 Oct 15 11:31 logcat_full.txt
+-rw-r--r-- 1 runner runner   14168 Oct 15 11:31 run.log
