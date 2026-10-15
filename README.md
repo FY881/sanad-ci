@@ -14,11 +14,11 @@
 
 <br/><br/>
 
-<img alt="v6.0 «الأفق»: in progress · waves A–C done" src="https://img.shields.io/badge/v6.0_%C2%AB%D8%A7%D9%84%D8%A3%D9%81%D9%82%C2%BB-in_progress_%C2%B7_waves_A%E2%80%93C_done-f5a524?style=for-the-badge"/> <img alt="stable: 5.0.0" src="https://img.shields.io/badge/stable-5.0.0-10b981?style=for-the-badge"/> <img alt="Android: 7.0+ (API 24)" src="https://img.shields.io/badge/Android-7.0%2B_%28API_24%29-3ddc84?style=for-the-badge&logo=android&logoColor=white"/> <img alt="tests: 7,149 / 0 failed" src="https://img.shields.io/badge/tests-7%2C149_%2F_0_failed-22c55e?style=for-the-badge"/> <img alt="5.0 QA: 4,426 assertions" src="https://img.shields.io/badge/5.0_QA-4%2C426_assertions-0ea5e9?style=for-the-badge"/> <img alt="AI: on-device first" src="https://img.shields.io/badge/AI-on--device_first-7c4dff?style=for-the-badge"/> <img alt="privacy: first" src="https://img.shields.io/badge/privacy-first-8b5cf6?style=for-the-badge"/> <img alt="server: Cloudflare Worker" src="https://img.shields.io/badge/server-Cloudflare_Worker-f38020?style=for-the-badge&logo=cloudflare&logoColor=white"/> <img alt="license: proprietary · private" src="https://img.shields.io/badge/license-proprietary_%C2%B7_private-64748b?style=for-the-badge"/>
+<img alt="v6.0.0 «الأفق»" src="https://img.shields.io/badge/v6.0.0-%C2%AB%D8%A7%D9%84%D8%A3%D9%81%D9%82%C2%BB-f5a524?style=for-the-badge"/> <img alt="stable: 6.0.0" src="https://img.shields.io/badge/stable-6.0.0-10b981?style=for-the-badge"/> <img alt="Android: 7.0+ (API 24)" src="https://img.shields.io/badge/Android-7.0%2B_%28API_24%29-3ddc84?style=for-the-badge&logo=android&logoColor=white"/> <img alt="JDK tests: 9,799 / 0 failed" src="https://img.shields.io/badge/JDK_tests-9%2C799_%2F_0_failed-22c55e?style=for-the-badge"/> <img alt="server tests: 1,235 / 0 failed" src="https://img.shields.io/badge/server_tests-1%2C235_%2F_0_failed-22c55e?style=for-the-badge"/> <img alt="red team: 189 / 189" src="https://img.shields.io/badge/red_team-189_%2F_189-ef4444?style=for-the-badge"/> <img alt="emulator: 249 / 249 screens · 0 crashes" src="https://img.shields.io/badge/emulator-249_%2F_249_screens_%C2%B7_0_crashes-0ea5e9?style=for-the-badge"/> <img alt="AI: on-device first" src="https://img.shields.io/badge/AI-on--device_first-7c4dff?style=for-the-badge"/> <img alt="privacy: first" src="https://img.shields.io/badge/privacy-first-8b5cf6?style=for-the-badge"/> <img alt="server: Cloudflare Worker" src="https://img.shields.io/badge/server-Cloudflare_Worker-f38020?style=for-the-badge&logo=cloudflare&logoColor=white"/> <img alt="license: proprietary · private" src="https://img.shields.io/badge/license-proprietary_%C2%B7_private-64748b?style=for-the-badge"/>
 
 <br/><br/>
 
-<b><a href="#ar">العربية</a></b> &nbsp;·&nbsp; <b><a href="#en">English</a></b> &nbsp;·&nbsp; <a href="#showcase">العرض</a> &nbsp;·&nbsp; <a href="#features">الميزات</a> &nbsp;·&nbsp; <a href="#gallery">المعرض</a> &nbsp;·&nbsp; <a href="#architecture">المعمار</a> &nbsp;·&nbsp; <a href="#roadmap">الخطة</a> &nbsp;·&nbsp; <a href="#promises">وعودنا</a>
+<b><a href="#ar">العربية</a></b> &nbsp;·&nbsp; <b><a href="#en">English</a></b> &nbsp;·&nbsp; <a href="#showcase">العرض</a> &nbsp;·&nbsp; <a href="#new6">الجديد في 6.0</a> &nbsp;·&nbsp; <a href="#features">الميزات</a> &nbsp;·&nbsp; <a href="#gallery">المعرض</a> &nbsp;·&nbsp; <a href="#architecture">المعمار</a> &nbsp;·&nbsp; <a href="#roadmap">الخطة</a> &nbsp;·&nbsp; <a href="#promises">وعودنا</a>
 
 </div>
 
@@ -33,7 +33,7 @@
 في 6.0 «الأفق» بقى عنده **جيش وكلاء** بيشتغل لحسابك أيام وأسابيع، جوه **دستور** واضح وقوانين و**موافقات**، وبيحرسه فريق أمن من وكلاء الذكاء الاصطناعي، و**القرار الأخير دايمًا لإنسان**.
 
 > [!NOTE]
-> المستودع ده خاص بالـCI بتاع سَنَد: بناء الـAPK والاختبارات واللقطات الحقيقية من محاكي Android. كل الصور هنا **لقطات حقيقية من المحاكي** لنسخة 5.0، ببيانات تجريبية فاضية، ومفيهاش أي بيانات لمستخدم أو لطفل.
+> المستودع ده خاص بالـCI بتاع سَنَد: بناء الـAPK والاختبارات واللقطات الحقيقية من محاكي Android. كل الصور هنا **لقطات حقيقية من المحاكي** لنسخة 6.0.0 (والأقسام القديمة من 5.0)، ببيانات تجريبية فاضية، ومفيهاش أي بيانات لمستخدم أو لطفل.
 
 </div>
 
@@ -46,7 +46,35 @@
 
 <img src="assets/showcase.gif" width="340" alt="جولة في سَنَد: لقطات حقيقية من محاكي Android"/>
 
-<sub>لقطات حقيقية من محاكي Android 14 · Real Android 14 emulator captures, sanad 5.0.0</sub>
+<sub>لقطات حقيقية من محاكي Android 14 · Real Android 14 emulator captures, sanad 6.0.0</sub>
+
+</div>
+
+<p align="center"><img src="assets/divider.svg" width="100%" alt=""/></p>
+
+<a id="new6"></a>
+<div dir="rtl">
+
+## <img src="assets/emoji/sparkles.png" width="30" alt=""/> الجديد في 6.0 «الأفق» · What's new in 6.0
+
+6.0.0 اتبنت على 7 موجات، كل موجة بإصدار داخلي واختباراتها:
+
+| الموجة | الإصدار | اللي اتعمل | What shipped |
+|:--:|:--:|:--|:--|
+| **A** | 5.1.0 | جيش الوكلاء: القائد العام، و12 كتيبة، ووكلاء أحرار، والمراجع والمحاسب، ودستور من 10 مواد، و4 مستويات موافقة | Agent army, constitution, 4 approval levels |
+| **B** | 5.2.0 | محرك العضويات الـ8 ونظام العدل: تذكير قبل التجديد، وإلغاء بضغطتين، واسترداد، واعتراض يراجعه إنسان | 8-tier membership engine + fairness system |
+| **C** | 5.3.0 | 13 ميزة عبقرية: التوأم الرقمي، والمحاكي، والأوراق والفواتير، والفرص، والإرث الرقمي، ووكيل الموظف… | 13 «genius» features (digital twin, bills, legacy…) |
+| **D** | 5.4.0 | المطوّرين وسوق الوكلاء 2.0 والـSDK، والتطوير الذاتي، و7 مستندات قانونية (151/2020، 181/2018، 175/2018، 15/2004) | Developer market + SDK, self-development, Egyptian legal docs |
+| **E** | 5.5.0 | المالك + 5 رتب، وقاعدة الشخصين، ودخول الأدمن بمفتاح، ووكلاء الرتب، وسجل تدقيق مسلسل | Owner + 5 ranks, two-person rule, chained audit |
+| **F** | 5.6.0 | مركز الأمن الذكي بـ6 وكلاء، والفريق الأحمر 189/189 سيناريو، وتقوية التطبيق | AI security center + red team (189/189) |
+| **G** | 6.0.0 | مراجعة ثوابت الأمان، وإصلاح أخطاء حقيقية، وبناء الإصدار، ولقطات المحاكي 249/249 من غير ولا كراش | Safety-invariant QA, release build, 249/249 emulator screens |
+
+**الاختبارات:** JDK **9,799 / 0** · السيرفر **1,235 / 0** · الفريق الأحمر **189 / 189** · المحاكي **249 / 249 شاشة، 0 كراش**.<br/>
+<sub>Tests: JDK 9,799 / 0 failed · server 1,235 / 0 failed · red team 189 / 189 · emulator 249 / 249 screens, 0 crashes.</sub>
+
+> [!NOTE]
+> الأسعار **مقترحة** والدفع **مقفول**، والسيرفر لسه مش متنشر، فشاشات الرتب ومركز الأمن بتظهر في الوضع المحلي.<br/>
+> <sub>Prices are proposed, payments are off, and the server is not deployed yet, so rank and security screens show their local/offline state.</sub>
 
 </div>
 
@@ -158,6 +186,127 @@
 <td align="center" width="25%"><img src="assets/screens/hl_12_admin_plans.jpg" width="200" alt="العضويات في الأدمن"/><br/><sub><b>العضويات في الأدمن</b></sub></td>
 </tr>
 </table>
+
+<br/>
+
+**جديد في 6.0 «الأفق»** · <sub>New 6.0 screens (tap to expand)</sub>
+
+<details>
+<summary><b>🎖️ الجيش والدستور · Agent army (6.0-A)</b> · 5 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/166_v6_hub.jpg" width="150" alt="جيش سَنَد «الأفق»"/><br/><sub><b>جيش سَنَد «الأفق»</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/167_v6_room.jpg" width="150" alt="غرفة العمليات"/><br/><sub><b>غرفة العمليات</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/169_v6_battalions.jpg" width="150" alt="الكتايب الـ12"/><br/><sub><b>الكتايب الـ12</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/170_v6_free.jpg" width="150" alt="الوكلاء الأحرار"/><br/><sub><b>الوكلاء الأحرار</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/178_v6_constitution.jpg" width="150" alt="دستور الوكلاء"/><br/><sub><b>دستور الوكلاء</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>💎 العضويات والعدل · Memberships (6.0-B)</b> · 5 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/181_v6b_plans.jpg" width="150" alt="العضويات الـ8"/><br/><sub><b>العضويات الـ8</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/182_v6b_compare.jpg" width="150" alt="مقارنة العضويات"/><br/><sub><b>مقارنة العضويات</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/184_v6b_fair.jpg" width="150" alt="نظام العدل"/><br/><sub><b>نظام العدل</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/190_v6b_diamond.jpg" width="150" alt="سَنَد الماسي «الأوائل»"/><br/><sub><b>سَنَد الماسي «الأوائل»</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/192_v6b_security.jpg" width="150" alt="أمان العضوية"/><br/><sub><b>أمان العضوية</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>🌅 الأفق: الميزات العبقرية · Horizon features (6.0-C)</b> · 4 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/194_v6c_twin.jpg" width="150" alt="التوأم الرقمي 2.0"/><br/><sub><b>التوأم الرقمي 2.0</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/198_v6c_bills.jpg" width="150" alt="حارس الاشتراكات والفواتير"/><br/><sub><b>حارس الاشتراكات والفواتير</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/204_v6c_heir.jpg" width="150" alt="افتح أمانة"/><br/><sub><b>افتح أمانة</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/206_v6c_employee.jpg" width="150" alt="وكيل الموظف"/><br/><sub><b>وكيل الموظف</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>🧩 السوق والمطوّرين · Market & developers (6.0-D)</b> · 4 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/210_v6d_market.jpg" width="150" alt="سوق الوكلاء 2.0"/><br/><sub><b>سوق الوكلاء 2.0</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/211_v6d_agent.jpg" width="150" alt="مساعد الوصفات (مثال SDK)"/><br/><sub><b>مساعد الوصفات (مثال SDK)</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/213_v6d_sdk.jpg" width="150" alt="SDK للوكلاء"/><br/><sub><b>SDK للوكلاء</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/225_admin_dev_market.jpg" width="150" alt="أدمن · مراجعة السوق"/><br/><sub><b>أدمن · مراجعة السوق</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>⚖️ القانوني والخصوصية · Legal (6.0-D/E)</b> · 4 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/215_v6d_legal.jpg" width="150" alt="المستندات القانونية"/><br/><sub><b>المستندات القانونية</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/216_v6d_doc.jpg" width="150" alt="شروط الاستخدام"/><br/><sub><b>شروط الاستخدام</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/220_v6d_dpo.jpg" width="150" alt="مسؤول حماية البيانات"/><br/><sub><b>مسؤول حماية البيانات</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/222_v6e_actions.jpg" width="150" alt="أفعال الإدارة على حسابك"/><br/><sub><b>أفعال الإدارة على حسابك</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>👑 المالك والرتب · Owner & ranks (6.0-E)</b> · 5 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/234_admin_rk_ranks.jpg" width="150" alt="الرتب والأدمنز"/><br/><sub><b>الرتب والأدمنز</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/235_admin_rk_invite.jpg" width="150" alt="دعوات الأدمن"/><br/><sub><b>دعوات الأدمن</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/238_admin_rk_sessions.jpg" width="150" alt="الجلسات والأجهزة"/><br/><sub><b>الجلسات والأجهزة</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/239_admin_rk_dash.jpg" width="150" alt="لوحة المالك"/><br/><sub><b>لوحة المالك</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/242_admin_rk_matrix.jpg" width="150" alt="مصفوفة الصلاحيات"/><br/><sub><b>مصفوفة الصلاحيات</b></sub></td>
+</tr>
+</table>
+
+</details>
+<details>
+<summary><b>🛡️ مركز الأمن الذكي · Security center (6.0-F)</b> · 5 لقطات</summary>
+<br/>
+
+<table>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/243_admin_soc.jpg" width="150" alt="مركز الأمن الذكي"/><br/><sub><b>مركز الأمن الذكي</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/244_admin_soc_alerts.jpg" width="150" alt="التنبيهات"/><br/><sub><b>التنبيهات</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/245_admin_soc_actions.jpg" width="150" alt="الأفعال المؤقتة"/><br/><sub><b>الأفعال المؤقتة</b></sub></td>
+</tr>
+<tr>
+<td align="center" width="33%"><img src="assets/screens/247_admin_soc_redteam.jpg" width="150" alt="الفريق الأحمر"/><br/><sub><b>الفريق الأحمر</b></sub></td>
+<td align="center" width="33%"><img src="assets/screens/249_admin_soc_grants.jpg" width="150" alt="المنح والإعدادات"/><br/><sub><b>المنح والإعدادات</b></sub></td>
+</tr>
+</table>
+
+</details>
 
 <br/>
 
@@ -335,7 +484,7 @@ flowchart TD
 
 ```mermaid
 flowchart LR
-  A["✅ A<br/>Army + constitution<br/>5.1.0"]:::done --> B["✅ B<br/>Memberships engine<br/>+ fairness · 5.2.0"]:::done --> C["✅ C<br/>13 genius features<br/>5.3.0"]:::done --> D["🔄 D<br/>Developers · self-dev<br/>legal · 5.4.0"]:::wip --> E["⏳ E<br/>Owner app<br/>+ 5 ranks"]:::todo --> F["⏳ F<br/>AI security center<br/>red team 100+"]:::todo --> G["⏳ G<br/>Full QA + emulator<br/>shots · 6.0.0"]:::todo
+  A["✅ A<br/>Army + constitution<br/>5.1.0"]:::done --> B["✅ B<br/>Memberships engine<br/>+ fairness · 5.2.0"]:::done --> C["✅ C<br/>13 genius features<br/>5.3.0"]:::done --> D["✅ D<br/>Developers · self-dev<br/>legal · 5.4.0"]:::done --> E["✅ E<br/>Owner app<br/>+ 5 ranks · 5.5.0"]:::done --> F["✅ F<br/>AI security center<br/>red team 189 · 5.6.0"]:::done --> G["✅ G<br/>Full QA + emulator<br/>shots · 6.0.0"]:::done
   classDef done fill:#10b981,stroke:#065f46,color:#fff
   classDef wip fill:#f5a524,stroke:#92400e,color:#1a1446
   classDef todo fill:#334155,stroke:#64748b,color:#e2e8f0
@@ -367,7 +516,7 @@ flowchart LR
 
 <img src="assets/emoji/child.png" width="36" alt=""/> **وضع الطفل ظاهر ومعلن**: مفيش تجسس، ومفيش إرسال أو شراء من الوكلاء.<br/><sub>Child mode is visible and consent-based, never spyware.</sub>
 
-<img src="assets/emoji/trash.png" width="36" alt=""/> **صدّر بياناتك أو امسحها كلها** في ضغطة (قانون 151 لسنة 2020) · بتتبني في الموجة D.<br/><sub>One-tap export or erase (Egypt PDPL 151/2020), being built in wave D.</sub>
+<img src="assets/emoji/trash.png" width="36" alt=""/> **صدّر بياناتك أو امسحها كلها** في ضغطة (قانون 151 لسنة 2020) · اتبنت في الموجة D.<br/><sub>One-tap export or erase (Egypt PDPL 151/2020), built in wave D.</sub>
 
 <img src="assets/emoji/key.png" width="36" alt=""/> **مفيش مفاتيح ولا أسرار في الكود**: فحص مفاتيح على كل إصدار.<br/><sub>No keys in the binary; every release passes a key scan.</sub>
 
@@ -389,8 +538,9 @@ flowchart LR
 | **2.0** | العقل القابل للاختبار | عقل وكيل نقي بيتختبر من غير موبايل، وأمان في مكان واحد | ✅ |
 | **3.0** | استوديو المهارات | مهارة من وصف بالكلام، و«اسأل الشاشة»، وترجمة حية، وذاكرة الموبايل | ✅ |
 | **4.0** | الفريق والعضويات | خطة: فريق وكلاء، و«نسختك»، وطابور الموافقات، ومتجر مهارات موقّع، والبيت الذكي | ↪️ اندمجت في 5.0 |
-| **5.0.0** | «النخبة» | ذكاء خارق، وأسطول وكلاء، وأتمتة، وحماية العيلة، وتجربة مهيبة، و165/165 شاشة على المحاكي، و4,426 اختبار JDK | ✅ مستقر |
-| **6.0** | «الأفق» | جيش الوكلاء بالـ12 كتيبة، والدستور، و4 مستويات موافقة، و8 عضويات، ومركز الأمن الذكي، ونظام العدل | 🔄 الموجات A–C خلصت · 7,149 / 0 |
+| **5.0.0** | «النخبة» | ذكاء خارق، وأسطول وكلاء، وأتمتة، وحماية العيلة، وتجربة مهيبة، و165/165 شاشة على المحاكي، و4,426 اختبار JDK | ✅ |
+| **6.0.0** | «الأفق» | جيش الوكلاء بالـ12 كتيبة، والدستور، و4 مستويات موافقة، و8 عضويات، ونظام العدل، وسوق المطوّرين، والمالك + 5 رتب، ومركز الأمن الذكي · 7 موجات (A–G) · JDK 9,799 / 0 · سيرفر 1,235 / 0 · فريق أحمر 189 / 189 · 249/249 شاشة على المحاكي | ✅ مستقر (2026-10-15) |
+| **7.0** | الجاي | نشر السيرفر، ومراجعة المحامي للمستندات، وتعيين مسؤول حماية البيانات، وتشغيل الدفع بعد موافقة المالك | 🗺️ خطة |
 
 </div>
 
@@ -402,7 +552,7 @@ flowchart LR
 
 **Sanad (سَنَد, "support")** is an Android AI agent that understands Egyptian Arabic and works the phone for you. It reads the screen, carries out tasks step by step, remembers what matters to you, and protects your family. Everything runs inside clear safety rules.
 
-**6.0 «الأفق» (Horizon)** adds a free agent army that can work for you over days and weeks:
+**6.0.0 «الأفق» (Horizon)**, released 2026-10-15 in 7 waves (A–G), adds a free agent army that can work for you over days and weeks:
 
 - 🎖️ **Commander + 12 battalions**: money, travel, shopping, study, health, work, home, family, legal & paperwork, content & design, coding, research. Free agents are created on demand and sandboxed first.
 - 📜 **Constitution**: 10 articles checked in code before every action. Humans decide. No impersonation, nothing illegal, and budget caps can't be broken.
@@ -411,14 +561,15 @@ flowchart LR
 - 👑 **Owner app + 5 admin ranks** with a two-person rule, passkeys, and an append-only audit log.
 - 🛡️ **AI security center**: Guardian, Fraud Hunter, Red Team, Fixer, Incident Lead, Auditor. They see patterns, never content.
 - ⚖️ **Fairness system**: a reminder 3 days before renewal, 2-tap cancel, a full refund within 7 days, and human review of any suspension within 48 h.
+- 🧩 **Developer market 2.0 + SDK**, self-development, and 7 Egyptian legal documents (drafts pending a lawyer's review).
 
 | | |
 |:--|:--|
 | **Platform** | Android 7.0+ (API 24), target 34 / Play build 36, separate admin app |
 | **Backend** | One Cloudflare Worker + one SQLite Durable Object (free tier) |
 | **AI** | On-device first; cloud models only with the user's own key, via a cost-aware router |
-| **Quality** | 5.0: 4,426 JDK assertions + 165/165 emulator screens, 0 crashes · 6.0 waves so far: **7,149 / 0** |
-| **This repo** | Private CI: APK builds, tests, and Android emulator screenshots |
+| **Quality** | 6.0.0: **9,799 / 0** JDK · **1,235 / 0** server · red team **189 / 189** · emulator **249 / 249** screens, 0 crashes |
+| **This repo** | CI: APK builds, tests, and Android emulator screenshots |
 
 <details>
 <summary><b>Credits</b></summary>
