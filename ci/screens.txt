@@ -1,4 +1,4 @@
-# Sanad 5.0 screen list (from docs/ci_screens_5.0.txt). Use the -ci APKs and deeplink=true.
+# Sanad 6.0 screen list: 5.0 list (docs/ci_screens_5.0.txt) + 6.0 ids (docs/ci_screens_6.0.txt, V6B.IDS, admin SCREEN_IDS). -ci APKs, deeplink=true.
 # package|activity|extras|name|taps
 com.sanad.app|.MainActivity|--es ci 1 --es screen home|001_home|
 com.sanad.app|.MainActivity|--es ci 1 --es screen tour|002_tour|
@@ -165,3 +165,87 @@ com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen devices|1
 com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen settings|163_admin_settings|
 com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen cannot|164_admin_cannot|
 com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen plans|165_admin_plans|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.hub|166_v6_hub|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.room|167_v6_room|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.commander|168_v6_commander|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.battalions|169_v6_battalions|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.free|170_v6_free|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.proposals|171_v6_proposals|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.approvals|172_v6_approvals|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.grants|173_v6_grants|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.budget|174_v6_budget|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.long|175_v6_long|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.memory|176_v6_memory|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.morning|177_v6_morning|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.constitution|178_v6_constitution|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.appeal|179_v6_appeal|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6.why|180_v6_why|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.plans|181_v6b_plans|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.compare|182_v6b_compare|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.mine|183_v6b_mine|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.fair|184_v6b_fair|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.limits|185_v6b_limits|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.refund|186_v6b_refund|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.cancel|187_v6b_cancel|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.appeal|188_v6b_appeal|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.codes|189_v6b_codes|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.diamond|190_v6b_diamond|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.credit|191_v6b_credit|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6b.security|192_v6b_security|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.hub|193_v6c_hub|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.twin|194_v6c_twin|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.sim|195_v6c_sim|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.papers|196_v6c_papers|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.paper|197_v6c_paper|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.bills|198_v6c_bills|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.opps|199_v6c_opps|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.archive|200_v6c_archive|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.coach|201_v6c_coach|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.circle|202_v6c_circle|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.legacy|203_v6c_legacy|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.heir|204_v6c_heir|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.famcoach|205_v6c_famcoach|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.employee|206_v6c_employee|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.rules|207_v6c_rules|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6c.care|208_v6c_care|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.hub|209_v6d_hub|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.market|210_v6d_market|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.agent|211_v6d_agent|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.publish|212_v6d_publish|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.sdk|213_v6d_sdk|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.votes|214_v6d_votes|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.legal|215_v6d_legal|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.doc|216_v6d_doc|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.know|217_v6d_know|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.consents|218_v6d_consents|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.data|219_v6d_data|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.dpo|220_v6d_dpo|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6d.complaint|221_v6d_complaint|
+com.sanad.app|.MainActivity|--es ci 1 --es screen v6e.actions|222_v6e_actions|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen members|223_admin_members|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev|224_admin_dev|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.market|225_admin_dev_market|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.lab|226_admin_dev_lab|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.ab|227_admin_dev_ab|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.votes|228_admin_dev_votes|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.breach|229_admin_dev_breach|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.compliance|230_admin_dev_compliance|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.legal|231_admin_dev_legal|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen dev.dpo|232_admin_dev_dpo|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk|233_admin_rk|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.ranks|234_admin_rk_ranks|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.invite|235_admin_rk_invite|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.pending|236_admin_rk_pending|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.request|237_admin_rk_request|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.sessions|238_admin_rk_sessions|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.dash|239_admin_rk_dash|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.audit|240_admin_rk_audit|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.agents|241_admin_rk_agents|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen rk.matrix|242_admin_rk_matrix|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc|243_admin_soc|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.alerts|244_admin_soc_alerts|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.actions|245_admin_soc_actions|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.incidents|246_admin_soc_incidents|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.redteam|247_admin_soc_redteam|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.patcher|248_admin_soc_patcher|
+com.sanad.admin|.MainActivity|--es ci 1 --es ci_pin 135790 --es screen soc.grants|249_admin_soc_grants|
