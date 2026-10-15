@@ -66,7 +66,9 @@ jobs:
           disk-size: 6000M
           cores: 4
           disable-animations: true
-          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim -change-locale ar-EG
+          emulator-options: -no-window -gpu swiftshader_indirect -no-snapshot -noaudio -no-boot-anim
+          # ar-EG is set inside ci/run.sh (setprop + zygote restart): -change-locale restarted the framework while the
+          # action was still sending its post-boot keyevent, which failed 3 of 6 shards in run 38724225111 (6.0).
           script: bash ci/run.sh
 
       - name: Status
