@@ -4,7 +4,13 @@ set -u
 OUT=shots; mkdir -p "$OUT"
 LOG="$OUT/run.log"; exec > >(tee -a "$LOG") 2>&1
 adb wait-for-device
-# -change-locale makes the emulator soft-restart the framework (setprop ctl.restart zygote) shortly after boot.
+# Locale: set ar-EG here instead of the emulator's -change-locale (that restart raced the action's own post-boot adb calls).
+if [ "$(adb shell getprop persist.sys.locale | tr -d '\r')" != "ar-EG" ]; then
+  adb root >/dev/null 2>&1; sleep 5; adb wait-for-device
+  adb shell setprop persist.sys.locale ar-EG
+  adb shell setprop ctl.restart zygote
+fi
+# The locale change above soft-restarts the framework (setprop ctl.restart zygote) shortly after boot.
 # Wait for that restart to happen and settle before installing anything.
 ready() { [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ] && adb shell pm path android 2>/dev/null | grep -q package: ; }
 sleep 40
