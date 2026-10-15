@@ -1,0 +1,365 @@
+--------- beginning of main
+10-15 11:18:02.448 I/abb     ( 8873): StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+10-15 11:18:02.451 I/abb     ( 8873): StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+--------- beginning of system
+10-15 11:18:02.926 I/PackageManager( 4250): Integrity check passed for file:///data/app/vmdl376325077.tmp
+10-15 11:18:02.934 D/CompatibilityChangeReporter( 4250): Compat change id reported: 133396946; UID -1; state: ENABLED
+10-15 11:18:02.958 D/PackageManager( 4250): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+10-15 11:18:02.958 D/PackageManager( 4250): Clear ephemeral installer activity
+10-15 11:18:02.959 I/HealthFirstGrantTimeMan( 4250): State for user: 0 has not been restored and validated.
+10-15 11:18:02.959 W/GrantTimeSerializer( 4250): /data/system_ce/0/healthconnect/health-permissions-first-grant-times.xml not found
+--------- beginning of kernel
+10-15 11:18:03.151 I/logd    (    0): start watching /data/system/packages.list ...
+10-15 11:18:03.154 I/logd    (    0): ReadPackageList, total packages: 200
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.964 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 V/BackupManagerService( 4250): [UserID:0] restoreAtInstall pkg=com.sanad.app token=1 restoreSet=0
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 V/BackupManagerService( 4250): [UserID:0] Finishing install immediately
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.965 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.966 W/HealthConnectPackageInfoUtils( 4250): Can't extract requested permissions from the package info.
+10-15 11:18:02.968 E/BackupHelper( 4580): Could not parse delayed permissions
+10-15 11:18:02.968 E/BackupHelper( 4580): java.io.FileNotFoundException: /data/user_de/0/com.google.android.permissioncontroller/files/delayed_restore_permissions.xml: open failed: ENOENT (No such file or directory)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.IoBridge.open(IoBridge.java:574)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at java.io.FileInputStream.<init>(FileInputStream.java:160)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at android.app.ContextImpl.openFileInput(ContextImpl.java:745)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at com.android.permissioncontroller.permission.service.BackupHelper.restoreDelayedState(BackupHelper.java:409)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.onRestoreDelayedRuntimePermissionsBackup(PermissionControllerServiceImpl.java:426)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.lambda$onApplyStagedRuntimePermissionBackup$4(PermissionControllerServiceImpl.java:420)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl.$r8$lambda$tLRxnveBSElsWBMXSZfvxMhS6zQ(PermissionControllerServiceImpl.java:0)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at com.android.permissioncontroller.permission.service.PermissionControllerServiceImpl$$ExternalSyntheticLambda10.run(R8$$SyntheticClass:0)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at java.lang.Thread.run(Thread.java:1012)
+10-15 11:18:02.968 E/BackupHelper( 4580): Caused by: android.system.ErrnoException: open failed: ENOENT (No such file or directory)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.Linux.open(Native Method)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.BlockGuardOs.open(BlockGuardOs.java:274)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.ForwardingOs.open(ForwardingOs.java:563)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at android.app.ActivityThread$AndroidOs.open(ActivityThread.java:8063)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	at libcore.io.IoBridge.open(IoBridge.java:560)
+10-15 11:18:02.968 E/BackupHelper( 4580): 	... 11 more
+10-15 11:18:02.971 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:02.972 D/PackageInstallerSession( 4250): Marking session 376325077 as applied
+10-15 11:18:02.974 D/OomAdjuster( 4250): Not killing cached processes
+10-15 11:18:02.975 D/CompatibilityChangeReporter( 4250): Compat change id reported: 168419799; UID 10192; state: DISABLED
+10-15 11:18:02.975 D/CompatibilityChangeReporter( 4250): Compat change id reported: 273564678; UID 10192; state: DISABLED
+10-15 11:18:02.985 D/CarrierSvcBindHelper( 4649): onPackageAdded: com.sanad.app
+10-15 11:18:02.985 D/CarrierSvcBindHelper( 4649): No carrier app for: 0
+10-15 11:18:02.986 I/PermissionControllerServiceImpl( 4580): Updating user sensitive for uid 10192
+10-15 11:18:02.986 I/SdkSandboxManager( 4250): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10192, mPackageName='com.sanad.app, mAppProcessToken='null'}
+10-15 11:18:02.987 D/CompatibilityChangeReporter( 4250): Compat change id reported: 151105954; UID 1000; state: ENABLED
+10-15 11:18:02.987 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+10-15 11:18:02.987 E/AppOps  ( 4250): attributionTag VCN not declared in manifest of android
+10-15 11:18:02.989 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+10-15 11:18:02.989 I/InputReader( 4250): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-15 11:18:02.990 D/TransparencyService( 4250): Not an update. Skipping...
+10-15 11:18:02.991 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:02.996 D/StylusManager( 4443): Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-15 11:18:03.001 D/StylusManager( 4443): Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-15 11:18:03.003 I/SafetyLabelChangedBroadcastReceiver( 4580): received broadcast packageName: com.sanad.app, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-15 11:18:03.004 D/StylusManager( 4443): Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-15 11:18:03.004 D/StylusManager( 4443): Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-15 11:18:03.004 D/StylusManager( 4443): Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-15 11:18:03.005 D/StylusManager( 4443): Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-15 11:18:03.006 D/StylusManager( 4443): Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-15 11:18:03.007 D/StylusManager( 4443): Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-15 11:18:03.009 D/ImsResolver( 4649): maybeAddedImsService, packageName: com.sanad.app
+10-15 11:18:03.013 D/CarrierSvcBindHelper( 4649): onPackageModified: com.sanad.app
+10-15 11:18:03.014 D/CarrierSvcBindHelper( 4649): No carrier app for: 0
+10-15 11:18:03.014 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-15 11:18:03.014 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-15 11:18:03.017 D/StylusManager( 4443): Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-15 11:18:03.019 D/CompatibilityChangeReporter( 4250): Compat change id reported: 218533173; UID 10192; state: ENABLED
+10-15 11:18:03.019 D/ImsResolver( 4649): maybeAddedImsService, packageName: com.sanad.app
+10-15 11:18:03.019 D/CompatibilityChangeReporter( 4250): Compat change id reported: 262645982; UID 10192; state: ENABLED
+10-15 11:18:03.024 D/StylusManager( 4443): Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-15 11:18:03.026 D/StylusManager( 4443): Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-15 11:18:03.027 I/InputReader( 4250): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-15 11:18:03.028 D/AppWidgetServiceImpl( 4250): Provider info from ComponentInfo{com.sanad.app/com.sanad.app.Auto$Widget} won't be persisted.
+10-15 11:18:03.028 D/AppWidgetServiceImpl( 4250): Provider info from ComponentInfo{com.sanad.app/com.sanad.app.V5C$Dash} won't be persisted.
+10-15 11:18:03.030 I/PermissionControllerServiceImpl( 4580): Updating user sensitive for uid 10192
+10-15 11:18:03.034 I/abb     ( 8873): StartCommandInProcess(73657474696e67730067657400676c6f settings.get.glo [truncated])
+10-15 11:18:03.037 D/StylusManager( 4443): Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-15 11:18:03.038 D/StylusManager( 4443): Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-15 11:18:03.038 D/StylusManager( 4443): Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-15 11:18:03.038 D/StylusManager( 4443): Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-15 11:18:03.038 D/StylusManager( 4443): Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-15 11:18:03.039 D/StylusManager( 4443): Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-15 11:18:03.039 D/StylusManager( 4443): Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-15 11:18:03.039 D/StylusManager( 4443): Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-15 11:18:03.040 D/StylusManager( 4443): Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-15 11:18:03.040 I/abb     ( 8873): StartCommandInProcess(7061636b61676500696e7374616c6c00 package.install. [truncated])
+10-15 11:18:03.040 D/StylusManager( 4443): Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-15 11:18:03.040 W/PackageManager( 4250): Failed registering loading progress callback. Package is fully loaded.
+10-15 11:18:03.040 D/StylusManager( 4443): Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-15 11:18:03.042 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:03.045 I/AiAiEcho( 5174): AppFetcherImplV2 updateApps package:[com.sanad.app], userId:[0], reason:[package is added.].
+10-15 11:18:03.046 D/AppWidgetServiceImpl( 4250): Provider info from ComponentInfo{com.sanad.app/com.sanad.app.Auto$Widget} won't be persisted.
+10-15 11:18:03.046 D/AppWidgetServiceImpl( 4250): Provider info from ComponentInfo{com.sanad.app/com.sanad.app.V5C$Dash} won't be persisted.
+10-15 11:18:03.057 I/AiAiEcho( 5174): AppFetcherImpl onPackageChanged com.sanad.app.
+10-15 11:18:03.066 I/AiAiEcho( 5174): AppIndexer Package:[com.sanad.app] UserProfile:[0] Enabled:[true].
+10-15 11:18:03.066 I/AiAiEcho( 5174): AppFetcherImplV2 updateApps package:[com.sanad.app], userId:[0], reason:[package is updated.].
+10-15 11:18:03.068 I/AiAiStatsd( 5174): Successfully logged feature enablement for HYBRID_HOTSEAT.
+10-15 11:18:03.072 I/AiAiEcho( 5174): EchoSearch: WidgetFetcherImpl is initialized with [30] widgets [reason=package added for userId: 0]
+10-15 11:18:03.073 I/AiAiStatsd( 5174): Successfully logged feature enablement for ECHO_ALL_APPS.
+10-15 11:18:03.086 D/EGL_emulation( 4690): app_time_stats: avg=1796.25ms min=1796.25ms max=1796.25ms count=1
+10-15 11:18:03.147 I/system_server( 4250): Background concurrent copying GC freed 586153(26MB) AllocSpace objects, 61(1184KB) LOS objects, 47% free, 26MB/50MB, paused 31us,51us total 175.517ms
+10-15 11:18:03.147 W/JavaBinder( 4250): BinderProxy is being destroyed but the application did not call unlinkToDeath to unlink all of its death recipients beforehand.  Releasing leaked death recipient: com.android.server.am.ActivityManagerService$14
+10-15 11:18:03.148 I/BpBinder( 4250): onLastStrongRef automatically unlinking death recipients: 
+10-15 11:18:03.160 I/DropBoxManagerService( 4250): add tag=system_server_strictmode isTagEnabled=true flags=0x2
+10-15 11:18:03.190 I/RoleService( 4250): Granting default roles...
+10-15 11:18:03.209 E/RoleControllerServiceImpl( 4580): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION
+10-15 11:18:03.215 I/Role    ( 4580): com.google.android.gms not qualified for android.app.role.SYSTEM_CALL_STREAMING due to missing RequiredComponent{mIntentFilterData=IntentFilterData{mAction='android.telecom.CallStreamingService', mCategories='[]', mDataScheme='null', mDataType='null'}, mMinTargetSdkVersion=1, mFlags='0', mPermission='android.permission.BIND_CALL_STREAMING_SERVICE', mQueryFlags=0, mMetaData=[]}
+10-15 11:18:03.215 E/RoleControllerServiceImpl( 4580): Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_CALL_STREAMING
+10-15 11:18:03.217 W/Role    ( 4580): Default holder doesn't have required signing certificate: com.google.android.apps.work.clouddpc:23962F4B43B9857638EA66F4D419518EAE282491ACDA4B94707BD59003C45E58
+10-15 11:18:03.319 I/PackageManager( 4250): Integrity check passed for file:///data/app/vmdl1624845936.tmp
+10-15 11:18:03.345 D/PackageManager( 4250): Instant App installer not found with android.intent.action.INSTALL_INSTANT_APP_PACKAGE
+10-15 11:18:03.345 D/PackageManager( 4250): Clear ephemeral installer activity
+10-15 11:18:03.538 I/logd    (    0): start watching /data/system/packages.list ...
+10-15 11:18:03.540 I/logd    (    0): ReadPackageList, total packages: 201
+10-15 11:18:03.351 V/BackupManagerService( 4250): [UserID:0] restoreAtInstall pkg=com.sanad.admin token=2 restoreSet=0
+10-15 11:18:03.351 V/BackupManagerService( 4250): [UserID:0] Finishing install immediately
+10-15 11:18:03.355 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:03.355 D/PackageInstallerSession( 4250): Marking session 1624845936 as applied
+10-15 11:18:03.356 D/CompatibilityChangeReporter( 4250): Compat change id reported: 168419799; UID 10193; state: DISABLED
+10-15 11:18:03.357 D/CompatibilityChangeReporter( 4250): Compat change id reported: 273564678; UID 10193; state: DISABLED
+10-15 11:18:03.364 E/AppOps  ( 4250): attributionTag VCN not declared in manifest of android
+10-15 11:18:03.370 D/CarrierSvcBindHelper( 4649): onPackageAdded: com.sanad.admin
+10-15 11:18:03.371 D/CarrierSvcBindHelper( 4649): No carrier app for: 0
+10-15 11:18:03.372 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+10-15 11:18:03.372 I/SdkSandboxManager( 4250): No SDKs used. Skipping SDK data reconcilation for CallingInfo{mUid=10193, mPackageName='com.sanad.admin, mAppProcessToken='null'}
+10-15 11:18:03.372 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_ADDED
+10-15 11:18:03.375 I/InputReader( 4250): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-15 11:18:03.376 D/TransparencyService( 4250): Not an update. Skipping...
+10-15 11:18:03.377 I/PermissionControllerServiceImpl( 4580): Updating user sensitive for uid 10193
+10-15 11:18:03.383 D/StylusManager( 4443): Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-15 11:18:03.383 D/StylusManager( 4443): Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-15 11:18:03.384 D/StylusManager( 4443): Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-15 11:18:03.385 D/ImsResolver( 4649): maybeAddedImsService, packageName: com.sanad.admin
+10-15 11:18:03.386 D/StylusManager( 4443): Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-15 11:18:03.388 D/StylusManager( 4443): Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-15 11:18:03.388 D/StylusManager( 4443): Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-15 11:18:03.388 D/StylusManager( 4443): Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-15 11:18:03.389 D/StylusManager( 4443): Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-15 11:18:03.389 D/StylusManager( 4443): Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-15 11:18:03.389 D/StylusManager( 4443): Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-15 11:18:03.389 D/StylusManager( 4443): Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-15 11:18:03.391 I/SafetyLabelChangedBroadcastReceiver( 4580): received broadcast packageName: com.sanad.admin, current user: UserHandle{0}, packageChangeEvent: NEW_INSTALL, intent user: UserHandle{0}
+10-15 11:18:03.392 D/CompatibilityChangeReporter( 4250): Compat change id reported: 218533173; UID 10193; state: ENABLED
+10-15 11:18:03.394 D/CompatibilityChangeReporter( 4250): Compat change id reported: 262645982; UID 10193; state: ENABLED
+10-15 11:18:03.395 D/CarrierSvcBindHelper( 4649): onPackageModified: com.sanad.admin
+10-15 11:18:03.395 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-15 11:18:03.396 V/MediaPlayerList( 4620): mPackageChangedBroadcastReceiver: action: android.intent.action.PACKAGE_CHANGED
+10-15 11:18:03.396 I/PermissionControllerServiceImpl( 4580): Updating user sensitive for uid 10193
+10-15 11:18:03.396 I/InputReader( 4250): Reconfiguring input devices, changes=KEYBOARD_LAYOUTS
+10-15 11:18:03.396 D/CarrierSvcBindHelper( 4649): No carrier app for: 0
+10-15 11:18:03.401 D/ImsResolver( 4649): maybeAddedImsService, packageName: com.sanad.admin
+10-15 11:18:03.404 D/StylusManager( 4443): Stylus InputDevice changed: 14 virtio_input_multi_touch_11
+10-15 11:18:03.407 D/StylusManager( 4443): Stylus InputDevice changed: 13 virtio_input_multi_touch_10
+10-15 11:18:03.408 D/StylusManager( 4443): Stylus InputDevice changed: 12 virtio_input_multi_touch_9
+10-15 11:18:03.408 D/StylusManager( 4443): Stylus InputDevice changed: 11 virtio_input_multi_touch_8
+10-15 11:18:03.408 D/StylusManager( 4443): Stylus InputDevice changed: 8 virtio_input_multi_touch_5
+10-15 11:18:03.408 D/StylusManager( 4443): Stylus InputDevice changed: 7 virtio_input_multi_touch_4
+10-15 11:18:03.408 D/StylusManager( 4443): Stylus InputDevice changed: 5 virtio_input_multi_touch_2
+10-15 11:18:03.409 D/StylusManager( 4443): Stylus InputDevice changed: 9 virtio_input_multi_touch_6
+10-15 11:18:03.409 D/StylusManager( 4443): Stylus InputDevice changed: 4 virtio_input_multi_touch_1
+10-15 11:18:03.409 D/StylusManager( 4443): Stylus InputDevice changed: 10 virtio_input_multi_touch_7
+10-15 11:18:03.409 D/StylusManager( 4443): Stylus InputDevice changed: 6 virtio_input_multi_touch_3
+10-15 11:18:03.412 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:03.424 W/PackageManager( 4250): Failed registering loading progress callback. Package is fully loaded.
+10-15 11:18:03.425 I/AiAiEcho( 5174): AppFetcherImplV2 updateApps package:[com.sanad.admin], userId:[0], reason:[package is added.].
+10-15 11:18:03.424 W/ProcessStats( 4250): Tracking association SourceState{676f6eb com.google.android.gms.persistent/10125 BTop #8512} whose proc state 2 is better than process ProcessState{5c1f882 com.google.android.gms/10125 pkg=com.google.android.gms} proc state 9 (68561 skipped)
+10-15 11:18:03.430 W/WindowMagnificationMgr( 4250): requestConnection duplicated request: connect=false, mConnectionState=DISCONNECTED
+10-15 11:18:03.442 I/AiAiEcho( 5174): AppFetcherImpl onPackageChanged com.sanad.admin.
+10-15 11:18:03.443 I/AiAiEcho( 5174): AppIndexer Package:[com.sanad.admin] UserProfile:[0] Enabled:[true].
+10-15 11:18:03.443 I/AiAiEcho( 5174): AppFetcherImplV2 updateApps package:[com.sanad.admin], userId:[0], reason:[package is updated.].
+10-15 11:18:03.445 I/AiAiEcho( 5174): EchoSearch: WidgetFetcherImpl is initialized with [30] widgets [reason=package added for userId: 0]
+10-15 11:18:03.470 I/system_server( 4250): Background concurrent copying GC freed 197184(9256KB) AllocSpace objects, 20(388KB) LOS objects, 47% free, 26MB/50MB, paused 94us,42us total 114.812ms
+10-15 11:18:03.481 I/GsaVoiceInteractionSrv( 5205): O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }
+10-15 11:18:03.487 I/GsaVoiceInteractionSrv( 5205): O received Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 (has extras) }
+10-15 11:18:03.488 I/Fitness ( 8074): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+10-15 11:18:03.488 I/Bugle   ( 7515): BroadcastReceiverAsyncWorkTracker: Acknowledging broadcast of bdxy@ecdd0d0
+10-15 11:18:03.504 D/ControlsListingControllerImpl( 4443): ServiceConfig reloaded, count: 0
+10-15 11:18:03.504 D/ControlsListingControllerImpl( 4443): ServiceConfig reloaded, count: 0
+10-15 11:18:03.505 D/CompatibilityChangeReporter( 4250): Compat change id reported: 161252188; UID 10192; state: DISABLED
+10-15 11:18:03.509 D/ControlsListingControllerImpl( 4443): ServiceConfig reloaded, count: 0
+10-15 11:18:03.510 W/SearchServiceCore( 5350): Abort, client detached.
+10-15 11:18:03.518 D/ControlsListingControllerImpl( 4443): ServiceConfig reloaded, count: 0
+10-15 11:18:03.542 I/resolv  ( 4188): GetAddrInfoHandler::run: {101 786533 101 983141 10125 0}
+10-15 11:18:03.542 I/Fitness ( 8074): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+10-15 11:18:03.547 I/Auth    ( 8155): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+10-15 11:18:03.550 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.550 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.554 I/BlockstoreStorage( 8155): Clearing Blockstore Data for package com.sanad.app [CONTEXT service_id=258 ]
+10-15 11:18:03.554 I/BlockstoreStorage( 8155): Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+10-15 11:18:03.557 I/resolv  ( 4188): res_nmkquery: (QUERY, IN, A)
+10-15 11:18:03.557 I/resolv  ( 4188): res_nmkquery: (QUERY, IN, AAAA)
+10-15 11:18:03.566 I/ProximityAuth( 8074): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.sanad.app
+10-15 11:18:03.566 W/GCM     ( 8074): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+10-15 11:18:03.571 I/FontLog ( 8074): Package com.sanad.app has no metadata [CONTEXT service_id=132 ]
+10-15 11:18:03.572 W/GCM     ( 8074): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+10-15 11:18:03.573 I/resolv  ( 4188): res_nsend: used send_dg 272 terrno: 0
+10-15 11:18:03.573 I/resolv  ( 4188): doQuery: rcode=0, ancount=8, return value=272
+10-15 11:18:03.575 I/Fitness ( 8074): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+10-15 11:18:03.581 D/BoundBrokerSvc( 8155): onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.581 I/resolv  ( 4188): res_nsend: used send_dg 176 terrno: 0
+10-15 11:18:03.581 I/resolv  ( 4188): doQuery: rcode=0, ancount=8, return value=176
+10-15 11:18:03.582 D/BoundBrokerSvc( 8155): Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.590 I/Fitness ( 8074): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+10-15 11:18:03.592 D/BoundBrokerSvc( 8155): onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.608 D/TrafficStats( 8155): tagSocket(164) with statsTag=0x30004901, statsUid=10125
+10-15 11:18:03.609 I/Dck     ( 8155): doesDeviceHaveSupportedWirelessCapabilities: wccSysProp:0, wccMendel:3, deviceWccOverride:false [CONTEXT service_id=289 ]
+10-15 11:18:03.609 I/Dck     ( 8155): isDckModuleEligible: isAtLeastR:true, hasWccSupport:false, downloadAllowed:false [CONTEXT service_id=289 ]
+10-15 11:18:03.609 W/Dck     ( 8155): Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+10-15 11:18:03.617 I/Fitness ( 8074): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+10-15 11:18:03.623 D/CompatibilityChangeReporter( 4250): Compat change id reported: 161252188; UID 10193; state: DISABLED
+10-15 11:18:03.623 I/Icing   ( 8155): Indexing com.google.android.gms-apps from com.google.android.gms
+10-15 11:18:03.635 I/Icing   ( 8155): Indexing done com.google.android.gms-apps
+10-15 11:18:03.663 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.670 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.673 I/Icing   ( 8155): Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+10-15 11:18:03.685 I/Auth    ( 8155): [SupervisedAccountIntentOperation] onHandleIntent(): android.intent.action.PACKAGE_ADDED
+10-15 11:18:03.686 I/BlockstoreStorage( 8155): Clearing Blockstore Data for package com.sanad.admin [CONTEXT service_id=258 ]
+10-15 11:18:03.686 I/BlockstoreStorage( 8155): Keyless data not found or its IsLastInstallationData = false. [CONTEXT service_id=258 ]
+10-15 11:18:03.686 I/Dck     ( 8155): doesDeviceHaveSupportedWirelessCapabilities: wccSysProp:0, wccMendel:3, deviceWccOverride:false [CONTEXT service_id=289 ]
+10-15 11:18:03.686 I/Dck     ( 8155): isDckModuleEligible: isAtLeastR:true, hasWccSupport:false, downloadAllowed:false [CONTEXT service_id=289 ]
+10-15 11:18:03.686 W/Dck     ( 8155): Dck module not eligible for asynchronous downloading [CONTEXT service_id=289 ]
+10-15 11:18:03.689 I/Icing   ( 8155): Indexing done com.google.android.gms-internal.3p:MobileApplication
+10-15 11:18:03.692 I/ProximityAuth( 8074): [RecentAppsMediator] Package added: (user=UserHandle{0}) com.sanad.admin
+10-15 11:18:03.693 W/GCM     ( 8074): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+10-15 11:18:03.693 I/FontLog ( 8074): Package com.sanad.admin has no metadata [CONTEXT service_id=132 ]
+10-15 11:18:03.693 W/GCM     ( 8074): Unexpected forwarded intent: Intent { act=android.intent.action.PACKAGE_ADDED dat=package: flg=0x4000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) }
+10-15 11:18:03.695 D/BoundBrokerSvc( 8074): onBind: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
+10-15 11:18:03.698 D/BoundBrokerSvc( 8074): Loading bound service for intent: Intent { act=com.google.android.gms.nearby.exposurenotification.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiServiceNoInstantApps }
+10-15 11:18:03.700 I/Icing   ( 8155): Indexing com.google.android.gms-apps from com.google.android.gms
+10-15 11:18:03.702 D/BoundBrokerSvc( 8155): onBind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.702 D/BoundBrokerSvc( 8155): Loading bound service for intent: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.703 I/Fitness ( 8074): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+10-15 11:18:03.705 I/Fitness ( 8074): OnPackageChangedOperation got intent: Intent { act=android.intent.action.PACKAGE_CHANGED dat=package: flg=0x5000010 pkg=com.google.android.gms cmp=com.google.android.gms/.chimera.PersistentIntentOperationService (has extras) } [CONTEXT service_id=17 ]
+10-15 11:18:03.712 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.713 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.715 I/Fitness ( 8074): FitCleanupIntentOperation received Intent android.intent.action.PACKAGE_CHANGED [CONTEXT service_id=17 ]
+10-15 11:18:03.720 D/BoundBrokerSvc( 8155): onUnbind: Intent { act=com.google.android.gms.common.BIND_SHARED_PREFS pkg=com.google.android.gms }
+10-15 11:18:03.735 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.737 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.745 I/Icing   ( 8155): Indexing done com.google.android.gms-apps
+10-15 11:18:03.746 I/Icing   ( 8155): Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+10-15 11:18:03.764 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.767 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.785 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.788 W/ChimeraUtils( 8074): Module com.google.android.gms.nearby_en missing resource null(٠)
+10-15 11:18:03.790 I/Icing   ( 8155): Indexing done com.google.android.gms-internal.3p:MobileApplication
+10-15 11:18:03.790 I/Icing   ( 8155): Indexing com.google.android.gms-apps from com.google.android.gms
+10-15 11:18:03.794 I/Icing   ( 8155): Indexing done com.google.android.gms-apps
+10-15 11:18:03.794 I/Icing   ( 8155): Indexing com.google.android.gms-internal.3p:MobileApplication from com.google.android.gms
+10-15 11:18:03.794 I/Icing   ( 8155): Indexing done com.google.android.gms-internal.3p:MobileApplication
+10-15 11:18:03.800 I/Icing   ( 8155): Indexing com.google.android.gms-apps from com.google.android.gms
+10-15 11:18:03.801 I/Icing   ( 8155): Indexing done com.google.android.gms-apps
+10-15 11:18:03.808 D/CompatibilityChangeReporter( 4250): Compat change id reported: 171306433; UID 10192; state: ENABLED
+10-15 11:18:03.809 D/CompatibilityChangeReporter( 4250): Compat change id reported: 226439802; UID 10192; state: ENABLED
+10-15 11:18:03.847 D/CompatibilityChangeReporter( 4250): Compat change id reported: 262645982; UID 10125; state: ENABLED
+10-15 11:18:03.848 D/CompatibilityChangeReporter( 4250): Compat change id reported: 218533173; UID 10118; state: ENABLED
+10-15 11:18:03.848 D/CompatibilityChangeReporter( 4250): Compat change id reported: 262645982; UID 10118; state: ENABLED
+10-15 11:18:04.044 D/CompatibilityChangeReporter( 4250): Compat change id reported: 171306433; UID 10193; state: ENABLED
+10-15 11:18:04.089 E/A       ( 5350): disposing SearchServiceClient after timeout []
+10-15 11:18:04.347 I/logd    (    0): logdr: UID=0 GID=0 PID=9056 n tail=0 logMask=10 pid=0 start=0ns deadline=0ns
+10-15 11:18:04.358 I/logd    (    0): logdr: UID=0 GID=0 PID=9059 n tail=0 logMask=99 pid=0 start=0ns deadline=0ns
